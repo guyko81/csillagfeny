@@ -1,0 +1,42 @@
+{% from "partials/macros.html" import icon with context %}
+{% set c = site.contact %}
+<section class="section contact" id="kapcsolat" aria-labelledby="kapcsolat-title">
+  <div class="container contact__grid">
+    <div class="contact__intro" data-reveal>
+      <h2 class="section-title" id="kapcsolat-title">{{ c.heading }}</h2>
+      <p class="lead">{{ c.intro }}</p>
+      <div class="person">
+        {{ img(c.person.img, alt=c.person.name, cls="person__avatar", sizes="96px") }}
+        <div>
+          <p class="person__name">{{ c.person.name }}</p>
+          <p class="person__role">{{ c.person.role }}</p>
+        </div>
+      </div>
+      <ul class="contact__list">
+        <li><a href="mailto:{{ c.email }}"><span class="contact__icon">{{ icon("mail") }}</span><span><strong>Email:</strong> {{ c.email }}</span></a></li>
+        <li><a href="{{ c.phone_href }}"><span class="contact__icon">{{ icon("phone") }}</span><span><strong>Telefonszám:</strong> {{ c.phone_display }}</span></a></li>
+        <li><a href="{{ c.facebook }}" rel="noopener" target="_blank"><span class="contact__icon">{{ icon("facebook") }}</span><span><strong>Facebook</strong></span></a></li>
+      </ul>
+    </div>
+    <form class="contact-form card" data-contact-form data-email="{{ c.email }}"{% if page == "apartment" %} data-page="{{ a.name }}"{% endif %} novalidate data-reveal>
+      {% for f in c.form.fields %}
+      <div class="field">
+        <label for="cf-{{ f.name }}">{{ f.label }} <span class="req" aria-hidden="true">*</span></label>
+        {% if f.type == "textarea" %}
+        <textarea id="cf-{{ f.name }}" name="{{ f.name }}" rows="5" required aria-describedby="cf-{{ f.name }}-err"></textarea>
+        {% else %}
+        <input id="cf-{{ f.name }}" name="{{ f.name }}" type="{{ f.type }}" autocomplete="{{ f.autocomplete }}" required aria-describedby="cf-{{ f.name }}-err">
+        {% endif %}
+        <p class="field__error" id="cf-{{ f.name }}-err" data-error="{{ f.error }}"></p>
+      </div>
+      {% endfor %}
+      <div class="field field--check">
+        <input id="cf-consent" name="consent" type="checkbox" required aria-describedby="cf-consent-err">
+        <label for="cf-consent">{{ c.form.consent_html|replace("{root}", root)|safe }}</label>
+        <p class="field__error" id="cf-consent-err" data-error="{{ c.form.consent_error }}"></p>
+      </div>
+      <button class="btn btn--primary btn--block" type="submit">{{ c.form.submit }}{{ icon("arrow-right") }}</button>
+      <p class="form-status" data-form-status role="status" hidden></p>
+    </form>
+  </div>
+</section>

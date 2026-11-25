@@ -1,0 +1,37 @@
+{% from "partials/macros.html" import icon with context %}
+{% set home = root or "./" %}
+{% set nav = [
+  {"label": "Bemutató", "href": home, "current": page == "home"},
+  {"label": "Lakásválasztó", "href": ("" if page == "home" else home) ~ "#lakasvalaszto", "current": False},
+  {"label": "Lakáslista", "href": root ~ "elado-lakasok/", "current": page in ("listing", "apartment")},
+  {"label": "Kapcsolat", "href": ("" if has_contact else home) ~ "#kapcsolat", "current": False},
+] %}
+<header class="site-header{% if page == 'home' %} site-header--overlay{% endif %}" data-header>
+  <div class="site-header__inner container">
+    <a class="brand" href="{{ home }}" aria-label="{{ site.name }} – kezdőlap">
+      <img src="{{ img_url(site.logo.img) }}" alt="{{ site.logo.alt }}" width="160" height="48">
+    </a>
+    <nav class="main-nav" aria-label="Fő navigáció">
+      <ul>
+        {% for item in nav %}
+        <li><a href="{{ item.href }}"{% if item.current %} aria-current="page"{% endif %}{% if loop.last %} class="btn btn--gold btn--sm"{% endif %}>{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <button class="nav-toggle icon-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" data-nav-toggle>
+      <span class="visually-hidden">Menü</span>{{ icon("menu", "nav-toggle__open") }}{{ icon("close", "nav-toggle__close") }}
+    </button>
+  </div>
+</header>
+{# outside the header: the header's backdrop-filter would make it the containing block of this fixed panel #}
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobil navigáció" data-mobile-nav hidden>
+    <ul>
+      {% for item in nav %}
+      <li style="--i: {{ loop.index0 }}"><a href="{{ item.href }}"{% if item.current %} aria-current="page"{% endif %}>{{ item.label }}{{ icon("arrow-right") }}</a></li>
+      {% endfor %}
+    </ul>
+    <div class="mobile-nav__contact">
+      <a href="{{ site.contact.phone_href }}">{{ icon("phone") }}{{ site.contact.phone_display }}</a>
+      <a href="mailto:{{ site.contact.email }}">{{ icon("mail") }}{{ site.contact.email }}</a>
+    </div>
+</nav>

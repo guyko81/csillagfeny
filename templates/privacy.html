@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Csillagfény Lakópark - Adatkezelési Tájékoztató{% endblock %}
+{% block og_title %}Adatkezelési Tájékoztató{% endblock %}
+{% block main %}
+<section class="page-hero">
+  <div class="container page-hero__inner page-hero__inner--narrow">
+    <nav class="breadcrumb" aria-label="Morzsamenü">
+      <ol>
+        <li><a href="{{ root }}">Csillagfény Lakópark</a></li>
+        <li><span aria-current="page">Adatkezelési Tájékoztató</span></li>
+      </ol>
+    </nav>
+    <h1 class="page-title">Adatkezelési Tájékoztató</h1>
+  </div>
+</section>
+<section class="section section--tight">
+  <article class="container container--narrow prose prose--legal">
+    {{ body }}
+  </article>
+</section>
+{% endblock %}

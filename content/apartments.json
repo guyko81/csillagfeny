@@ -1,0 +1,3081 @@
+[
+ {
+  "id": "a1",
+  "name": "Lakás A1",
+  "building": "A",
+  "level": 0,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A1-6",
+   "alt": "Lakás közlekedő helyiség"
+  },
+  "photos": [
+   {
+    "img": "A1-10",
+    "alt": "Üveges bejárati ajtó"
+   },
+   {
+    "img": "A1-9",
+    "alt": "Lakás helyiség - bejárati ajtó nyitott állapotban"
+   },
+   {
+    "img": "A1-1",
+    "alt": "Lakás előszoba"
+   },
+   {
+    "img": "A1-2",
+    "alt": "Lakás elószoba - bejárat"
+   },
+   {
+    "img": "A1-6",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A1-5",
+    "alt": "Lakás helyiség - két ablakos szoba és klíma"
+   },
+   {
+    "img": "A1-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-3",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-8",
+    "alt": "Házbejárat, füves előtérrel és lakópark kerítése"
+   },
+   {
+    "img": "A1-7",
+    "alt": "Lakópark kerítése és a mögötte lévő füves táj"
+   }
+  ],
+  "floorplan": {
+   "img": "A1",
+   "alt": "A1 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "4,14 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC fürdő",
+    "area": "5,10 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "13,50 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "7,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "21,78 ㎡"
+   }
+  ],
+  "total_area": 52.12,
+  "total_area_label": "52,12 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 46970000,
+  "available": false
+ },
+ {
+  "id": "a2",
+  "name": "Lakás A2",
+  "building": "A",
+  "level": 0,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A2-4",
+   "alt": "Lakás előszoba és üveges bejárati ajtó"
+  },
+  "photos": [
+   {
+    "img": "A2-12",
+    "alt": "A ház füves bejárati része és a lakópark kerítése"
+   },
+   {
+    "img": "A2-4",
+    "alt": "Lakás előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-11",
+    "alt": "Előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-10",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A2-1",
+    "alt": "Lakás szoba"
+   },
+   {
+    "img": "A2-2",
+    "alt": "Laká szoba"
+   },
+   {
+    "img": "A2-9",
+    "alt": "Berendezett fürdőszoba, káddal, fehér színű mintás burkolattal"
+   },
+   {
+    "img": "A2-8",
+    "alt": "Illemhely - fehér, mintás burkolattal és fa ajtóval"
+   },
+   {
+    "img": "A2-7",
+    "alt": "Stílusos ajtók"
+   },
+   {
+    "img": "A2-6",
+    "alt": "Lakás beltér"
+   }
+  ],
+  "floorplan": {
+   "img": "A2",
+   "alt": "A2 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdőszoba",
+    "area": "6,48 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 3",
+    "area": "11,76 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.41,
+  "total_area_label": "72,41 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 62850000,
+  "available": false
+ },
+ {
+  "id": "a3",
+  "name": "Lakás A3",
+  "building": "A",
+  "level": 0,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A3-1",
+   "alt": "Lakás előszoba, falra felszerelt tükörrel"
+  },
+  "photos": [
+   {
+    "img": "A3-4",
+    "alt": "Bejárat előtti füves tér"
+   },
+   {
+    "img": "A3-3",
+    "alt": "Konyha és ebédlőhelyiség"
+   },
+   {
+    "img": "A3-2",
+    "alt": "Berendezett fürdőszoba - mosdószekrény, tükör és wc"
+   },
+   {
+    "img": "A3-1",
+    "alt": "Lakás előszoba, falra felszerelt tükörrel"
+   }
+  ],
+  "floorplan": {
+   "img": "A3",
+   "alt": "A3 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,22 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdőszoba",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "5,32 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "8,62 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "11,70 ㎡"
+   }
+  ],
+  "total_area": 58.25,
+  "total_area_label": "58,25 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 52420000,
+  "available": false
+ },
+ {
+  "id": "a4",
+  "name": "Lakás A4",
+  "building": "A",
+  "level": 1,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A4-14",
+   "alt": "Tágas, világos helyiség"
+  },
+  "photos": [
+   {
+    "img": "A4-1",
+    "alt": "Bejárati ajtó közelnézetből"
+   },
+   {
+    "img": "A4-11",
+    "alt": "Tágas előszoba teljes nézetben és bejárati ajtó"
+   },
+   {
+    "img": "A4-12",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A4-14",
+    "alt": "Tágas, világos helyiség"
+   },
+   {
+    "img": "A4-10",
+    "alt": "Üres, világos szoba"
+   },
+   {
+    "img": "A4-2",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A4-3",
+    "alt": "Két helyiség bejárat előtti nézet"
+   },
+   {
+    "img": "A4-9",
+    "alt": "Üres szoba, fa ajtóval"
+   },
+   {
+    "img": "A4-13",
+    "alt": "Üvegkorlátos erkélyről nézet a zöld fás környezetre"
+   },
+   {
+    "img": "A4-8",
+    "alt": "Ablakból nézet a zöld, fás környezetre"
+   }
+  ],
+  "floorplan": {
+   "img": "A4",
+   "alt": "A4 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "7,48 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "6,57 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "17,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "4,00 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 53.26,
+  "total_area_label": "53,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 47980000,
+  "available": false
+ },
+ {
+  "id": "a5",
+  "name": "Lakás A5",
+  "building": "A",
+  "level": 1,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A5-1",
+   "alt": "Lakás előtér, üveges bejárati ajtóval"
+  },
+  "photos": [
+   {
+    "img": "A5-1",
+    "alt": "Lakás előtér, üveges bejárati ajtóval"
+   },
+   {
+    "img": "A5-5",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A5-11",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-10",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-2",
+    "alt": "Szoba, klíma egységgel a falon"
+   },
+   {
+    "img": "A5-8",
+    "alt": "Kis szobába nézet a bejáratától"
+   },
+   {
+    "img": "A5-7",
+    "alt": "Lakás közelekő része, ajtókkal a különböző helyiségekhez"
+   },
+   {
+    "img": "A5-6",
+    "alt": "Szobasarok"
+   },
+   {
+    "img": "A5-3",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   },
+   {
+    "img": "A5-4",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   }
+  ],
+  "floorplan": {
+   "img": "A5",
+   "alt": "A5 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "6,48 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 3",
+    "area": "11,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.78,
+  "total_area_label": "72,78 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 63100000,
+  "available": false
+ },
+ {
+  "id": "a6",
+  "name": "Lakás A6",
+  "building": "A",
+  "level": 1,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "no-photo",
+   "alt": ""
+  },
+  "photos": [],
+  "floorplan": {
+   "img": "A6",
+   "alt": "A6 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "2,86 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "5,86 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "11,70 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "8,63 ㎡"
+   }
+  ],
+  "total_area": 58.26,
+  "total_area_label": "58,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 52430000,
+  "available": false
+ },
+ {
+  "id": "a7",
+  "name": "Lakás A7",
+  "building": "A",
+  "level": 1,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A7-3",
+   "alt": "Tágas, világos szoba parkettás padlóburkolattal és nagy nyílászárókkal"
+  },
+  "photos": [
+   {
+    "img": "A7-1",
+    "alt": "Tágas, világos helyiség, ajtó előtti nézetből"
+   },
+   {
+    "img": "A7-2",
+    "alt": "Fürdőszoba előtti tér"
+   },
+   {
+    "img": "A7-4",
+    "alt": "Szoba felé nézet - kapcsolók és vezérlők"
+   },
+   {
+    "img": "A7-12",
+    "alt": "Két ablakos szoba, klímaegység a falon"
+   },
+   {
+    "img": "A7-3",
+    "alt": "Tágas, világos szoba parkettás padlóburkolattal és nagy nyílászárókkal"
+   },
+   {
+    "img": "A7-5",
+    "alt": "Klímával ellátott helyiség"
+   },
+   {
+    "img": "A7-11",
+    "alt": "Fürdőszoba és fürdőkád, mosdószekrény"
+   },
+   {
+    "img": "A7-10",
+    "alt": "Fürdőszoba és illemhely bejárati része, modern megjelenésű burkolattal"
+   },
+   {
+    "img": "A7-9",
+    "alt": "Nézet az üveges korlátos erkélyről a füves tájra"
+   },
+   {
+    "img": "A7-8",
+    "alt": "Előszobából a bejárati ajtó felé nézet"
+   }
+  ],
+  "floorplan": {
+   "img": "A7",
+   "alt": "A7 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előtér",
+    "area": "5,63 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,22 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "7,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "16,06 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "12,42 ㎡"
+   }
+  ],
+  "total_area": 47.26,
+  "total_area_label": "47,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 41590000,
+  "available": false
+ },
+ {
+  "id": "a8",
+  "name": "Lakás A8",
+  "building": "A",
+  "level": 2,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A8-9",
+   "alt": "Erkélyes szoba"
+  },
+  "photos": [
+   {
+    "img": "A8-10",
+    "alt": "Erkélyre kivezető szoba, zöld panoráma nézettel"
+   },
+   {
+    "img": "A8-11",
+    "alt": "Erkélyre kivezető szoba, radiátorral a falon"
+   },
+   {
+    "img": "A8-9",
+    "alt": "Erkélyes szoba"
+   },
+   {
+    "img": "A8-12",
+    "alt": "Szobából erkélynézet az üveges ajtókon keresztül a kinti fás környezetre"
+   },
+   {
+    "img": "A8-8",
+    "alt": "Lakás közlekedő része"
+   },
+   {
+    "img": "A8-7",
+    "alt": "Kis szoba, klímaegységgel a falon"
+   },
+   {
+    "img": "A8-5",
+    "alt": "Illemhely, modern csempeburkolattal"
+   },
+   {
+    "img": "A8-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A8-6",
+    "alt": "Kis szoba"
+   },
+   {
+    "img": "A8-3",
+    "alt": "Lakás közlekedő helyiség"
+   }
+  ],
+  "floorplan": {
+   "img": "A8",
+   "alt": "A8 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "6,65 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "18,27 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,56 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,20 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 51.37,
+  "total_area_label": "51,37 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 45260000,
+  "available": false
+ },
+ {
+  "id": "a9",
+  "name": "Lakás A9",
+  "building": "A",
+  "level": 2,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A9-6",
+   "alt": "Lakás tágas előtere"
+  },
+  "photos": [
+   {
+    "img": "A9-17",
+    "alt": "Bejárati nézet a szoba felé"
+   },
+   {
+    "img": "A9-15",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A9-7",
+    "alt": "Lakás tágas előtere"
+   },
+   {
+    "img": "A9-10",
+    "alt": "Közlekedő helyiség a szobákba vezető ajtókkal"
+   },
+   {
+    "img": "A9-13",
+    "alt": "Szobasarok és klímaegység a falon"
+   },
+   {
+    "img": "A9-18",
+    "alt": "Tetőteres ablakok"
+   },
+   {
+    "img": "A9-16",
+    "alt": "Tetőtér szoba"
+   },
+   {
+    "img": "A9-1",
+    "alt": "Lakás előszobája, bejárat nézetből"
+   },
+   {
+    "img": "A9-6",
+    "alt": "Lakás tágas előtere"
+   },
+   {
+    "img": "A9-5",
+    "alt": "Előtér és üveges bejárati ajtó"
+   }
+  ],
+  "floorplan": {
+   "img": "A9",
+   "alt": "A9 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "19,98 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Mosókonyha / kamra",
+    "area": "1,71 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Közlekedő",
+    "area": "4,16 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "6,48 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "9,29 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "11,76 ㎡"
+   }
+  ],
+  "total_area": 62.67,
+  "total_area_label": "62,67 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 53850000,
+  "available": false
+ },
+ {
+  "id": "a10",
+  "name": "Lakás A10",
+  "building": "A",
+  "level": 2,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A10-1",
+   "alt": "Tágas, világos helyiség és parketta padlóburkolat"
+  },
+  "photos": [
+   {
+    "img": "A10-1",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat"
+   },
+   {
+    "img": "A10-3",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat - saroknézetből"
+   },
+   {
+    "img": "A10-2",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat, rolós ablakok"
+   },
+   {
+    "img": "A10-10",
+    "alt": "Parkettás szoba - saroknézetből"
+   },
+   {
+    "img": "A10-9",
+    "alt": "Parkettás szoba"
+   },
+   {
+    "img": "A10-7",
+    "alt": "Modern megjelenésű fürdőszoba, kád és WC"
+   },
+   {
+    "img": "A10-5",
+    "alt": "Modern megjelenésű fürdőszoba, mosdószekrény és törölközőszárító"
+   },
+   {
+    "img": "A10-8",
+    "alt": "Ablaknézet a városi panorámára"
+   },
+   {
+    "img": "A10-11",
+    "alt": "Ablaknézet a kinti zöld, füves tájra"
+   },
+   {
+    "img": "A10-12",
+    "alt": "Ablaknézetből a személyes parkoló"
+   }
+  ],
+  "floorplan": {
+   "img": "A10",
+   "alt": "A10 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "4,52 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,76 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "3,45 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali konyha",
+    "area": "23,67 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba",
+    "area": "9,72 ㎡"
+   }
+  ],
+  "total_area": 46.12,
+  "total_area_label": "46,12 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 39660000,
+  "available": false
+ },
+ {
+  "id": "a11",
+  "name": "Lakás A11",
+  "building": "A",
+  "level": 2,
+  "seo_heading": "",
+  "description_html": "",
+  "meta_description": "",
+  "card_image": {
+   "img": "A11-9",
+   "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+  },
+  "photos": [
+   {
+    "img": "A11-14",
+    "alt": "Bejárati ajtó és előtér, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-13",
+    "alt": "Tetőtér szoba ablakai - előnézetből"
+   },
+   {
+    "img": "A11-11",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-9",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-7",
+    "alt": "Tágas, fényes helyiség, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-6",
+    "alt": "Modern bukolattal ellátott Illemhely és fa ajtó"
+   },
+   {
+    "img": "A11-4",
+    "alt": "Fürdőszoba beltere és zuhanykabin"
+   },
+   {
+    "img": "A11-3",
+    "alt": "Ablaknézet a zöld városi panorámára"
+   },
+   {
+    "img": "A11-2",
+    "alt": "Parketta padlóburkolattal ellátott, világos fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A11-1",
+    "alt": "Bejárati ajtó és előtér"
+   }
+  ],
+  "floorplan": {
+   "img": "A11",
+   "alt": "A11 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előtér",
+    "area": "3,11 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,68 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "24,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,50 ㎡"
+   }
+  ],
+  "total_area": 37.63,
+  "total_area_label": "37,63 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 32550000,
+  "available": false
+ },
+ {
+  "id": "b1",
+  "name": "Lakás B1",
+  "building": "B",
+  "level": 0,
+  "seo_heading": "Kertkapcsolatos, világos otthon Kaposváron",
+  "description_html": "<p>Hangulatos ingatlan tágas nappalival és egy szobával, illetve saját kerttel – tökéletes választás egyedülállóknak vagy pároknak. Okosbojlerrel felszerelt fürdőszoba és minden évszakban kellemes hőmérsékletet biztosító multi klíma rendszer.</p>",
+  "meta_description": "Hangulatos ingatlan tágas nappalival és egy szobával, illetve saját kerttel - tökéletes választás egyedülállóknak vagy pároknak….",
+  "card_image": {
+   "img": "A1-5",
+   "alt": "Lakás helyiség - két ablakos szoba és klíma"
+  },
+  "photos": [
+   {
+    "img": "A1-10",
+    "alt": "Üveges bejárati ajtó"
+   },
+   {
+    "img": "A1-9",
+    "alt": "Lakás helyiség - bejárati ajtó nyitott állapotban"
+   },
+   {
+    "img": "A1-6",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A1-5",
+    "alt": "Lakás helyiség - két ablakos szoba és klíma"
+   },
+   {
+    "img": "A1-3",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-2",
+    "alt": "Lakás elószoba - bejárat"
+   },
+   {
+    "img": "A1-1",
+    "alt": "Lakás előszoba"
+   },
+   {
+    "img": "A1-8",
+    "alt": "Házbejárat, füves előtérrel és lakópark kerítése"
+   },
+   {
+    "img": "A1-7",
+    "alt": "Lakópark kerítése és a mögötte lévő füves táj"
+   }
+  ],
+  "floorplan": {
+   "img": "B1",
+   "alt": "B1 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "4,14 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC fürdő",
+    "area": "5,10 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "13,35 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "7,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "21,78 ㎡"
+   }
+  ],
+  "total_area": 51.97,
+  "total_area_label": "51,97 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 48942389,
+  "available": false
+ },
+ {
+  "id": "b2",
+  "name": "Lakás B2",
+  "building": "B",
+  "level": 0,
+  "seo_heading": "Új építésű háromszobás lakás Kaposváron",
+  "description_html": "<p>Eladó földszint lakás tágas nappalival, külön mosdóval -a fürdőben kád és zuhany is helyet kapott. Modern felszereltség: Gree multi klíma és Ariston okos bojler. Közvetlen kertkapcsolat, nyugodt környezet, kiváló elrendezés – ideális családi otthon.</p>",
+  "meta_description": "Eladó földszint lakás tágas nappalival, külön mosdóval -a fürdőben kád és zuhany is helyet kapott. Modern felszereltség: Gree multi…",
+  "card_image": {
+   "img": "A2-4",
+   "alt": "Lakás előszoba és üveges bejárati ajtó"
+  },
+  "photos": [
+   {
+    "img": "A2-11",
+    "alt": "Előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-10",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A2-9",
+    "alt": "Berendezett fürdőszoba, káddal, fehér színű mintás burkolattal"
+   },
+   {
+    "img": "A2-8",
+    "alt": "Illemhely - fehér, mintás burkolattal és fa ajtóval"
+   },
+   {
+    "img": "A2-7",
+    "alt": "Stílusos ajtók"
+   },
+   {
+    "img": "A2-6",
+    "alt": "Lakás beltér"
+   },
+   {
+    "img": "A2-5",
+    "alt": ""
+   },
+   {
+    "img": "A2-4",
+    "alt": "Lakás előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-3",
+    "alt": "Laká szoba"
+   },
+   {
+    "img": "A2-2",
+    "alt": "Laká szoba"
+   }
+  ],
+  "floorplan": {
+   "img": "B2",
+   "alt": "B2 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 3",
+    "area": "11,76 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.16,
+  "total_area_label": "72,16 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 65451492,
+  "available": false
+ },
+ {
+  "id": "b3",
+  "name": "Lakás B3",
+  "building": "B",
+  "level": 0,
+  "seo_heading": "Csendes ingatlan zárt lakóparkban",
+  "description_html": "<p>Földszinti, világos 2 szobás ingatlan két mosdóval. Csendes, biztonságos és zöld környezet, kiváló elrendezés, modern felszereltség. Kényelmes életvitelhez vagy akár befektetésnek is tökéletes választás!</p>",
+  "meta_description": "Földszinti, világos 2 szobás ingatlan két mosdóval. Csendes, biztonságos és zöld környezet, kiváló elrendezés, modern felszereltség….",
+  "card_image": {
+   "img": "no-photo",
+   "alt": ""
+  },
+  "photos": [],
+  "floorplan": {
+   "img": "B3",
+   "alt": "B3 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,22 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdő",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "5,15 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "8,62 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "11,70 ㎡"
+   }
+  ],
+  "total_area": 58.09,
+  "total_area_label": "58,09 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 54619058,
+  "available": false
+ },
+ {
+  "id": "b4",
+  "name": "Lakás B4",
+  "building": "B",
+  "level": 1,
+  "seo_heading": "Modern, új építésű lakás eladó Kaposváron",
+  "description_html": "<p>Első emeleti, 2 szobás lakás tágas nappalival, modern fürdőszobával, Gree multi klímával és Ariston okos bojlerrel felszerelve. Újépítésű társasházban, rendezett, zárt lakóparkban, csendes környezetben.</p>",
+  "meta_description": "Első emeleti, 2 szobás lakás tágas nappalival, modern fürdőszobával, Gree multi klímával és Ariston okos bojlerrel felszerelve….",
+  "card_image": {
+   "img": "A4-2",
+   "alt": "Lakás közlekedő helyiség"
+  },
+  "photos": [
+   {
+    "img": "A4-14",
+    "alt": "Tágas, világos helyiség"
+   },
+   {
+    "img": "A4-12",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A4-11",
+    "alt": "Tágas előszoba teljes nézetben és bejárati ajtó"
+   },
+   {
+    "img": "A4-10",
+    "alt": "Üres, világos szoba"
+   },
+   {
+    "img": "A4-9",
+    "alt": "Üres szoba, fa ajtóval"
+   },
+   {
+    "img": "A4-7",
+    "alt": "Szoba, klímaegységgel a falon"
+   },
+   {
+    "img": "A4-6",
+    "alt": "Illemhely"
+   },
+   {
+    "img": "A4-5",
+    "alt": "Fürdőszoba helyiség, mosdószekrénnyel és sítlusos csempeburkolattal"
+   },
+   {
+    "img": "A4-4",
+    "alt": "Berendezett fürdőszoba, káddal"
+   },
+   {
+    "img": "A4-3",
+    "alt": "Két helyiség bejárat előtti nézet"
+   }
+  ],
+  "floorplan": {
+   "img": "B4",
+   "alt": "B4 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "7,48 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "6,57 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "17,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "4,00 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 53.26,
+  "total_area_label": "53,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 50195648,
+  "available": false
+ },
+ {
+  "id": "b5",
+  "name": "Lakás B5",
+  "building": "B",
+  "level": 1,
+  "seo_heading": "Tágas 3 szobás otthon erkéllyel",
+  "description_html": "<p>Eladó első emeleti világos otthon extra kényelmi funkciókkal: három különálló szoba, zuhanyzó plusz kádas fürdőszoba, energiatakarékos okos bojler, modern multi klíma rendszer. Ideális nagyobb családnak vagy tágas életteret keresőknek.</p>",
+  "meta_description": "Eladó első emeleti világos otthon extra kényelmi funkciókkal: három különálló szoba, zuhanyzó plusz kádas fürdőszoba, energiatakarékos…",
+  "card_image": {
+   "img": "A5-5",
+   "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+  },
+  "photos": [
+   {
+    "img": "A5-11",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-10",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-9",
+    "alt": "Modern berendezett fürdőszoba fürdőkáddal, törölközőszárítóval"
+   },
+   {
+    "img": "A5-8",
+    "alt": "Kis szobába nézet a bejáratától"
+   },
+   {
+    "img": "A5-7",
+    "alt": "Lakás közelekő része, ajtókkal a különböző helyiségekhez"
+   },
+   {
+    "img": "A5-6",
+    "alt": "Szobasarok"
+   },
+   {
+    "img": "A5-5",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A5-4",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   },
+   {
+    "img": "A5-3",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   },
+   {
+    "img": "A5-2",
+    "alt": "Szoba, klíma egységgel a falon"
+   }
+  ],
+  "floorplan": {
+   "img": "B5",
+   "alt": "B5 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 3",
+    "area": "11,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.53,
+  "total_area_label": "72,53 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 65694944,
+  "available": false
+ },
+ {
+  "id": "b6",
+  "name": "Lakás B6",
+  "building": "B",
+  "level": 1,
+  "seo_heading": "Világos, erkélyes lakás praktikus elrendezéssel",
+  "description_html": "<p>Eladó első emeleti új építésű ingatlan két kényelmes szobával, különálló vendégmosdóval, energiahatékony, okos megoldásokkal. Párok vagy kisebb családok számára kiváló választás.</p>",
+  "meta_description": "Eladó első emeleti új építésű ingatlan két kényelmes szobával, különálló vendégmosdóval, energiahatékony, okos megoldásokkal….",
+  "card_image": {
+   "img": "no-photo",
+   "alt": ""
+  },
+  "photos": [],
+  "floorplan": {
+   "img": "B6",
+   "alt": "B6 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "2,86 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "5,51 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "11,70 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "8,63 ㎡"
+   }
+  ],
+  "total_area": 58.1,
+  "total_area_label": "58,10 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 54695210,
+  "available": false
+ },
+ {
+  "id": "b7",
+  "name": "Lakás B7",
+  "building": "B",
+  "level": 1,
+  "seo_heading": "Új építésű, modern lakás francia erkéllyel",
+  "description_html": "<p>Eladó első emeleti lakás zárt lakóparkban, napfényes tágas nappalival és egy hálószobával. A kellemes klímáról energiatakarékos multi klíma rendszer gondoskodik. Kényelmes, korszerű megoldások egy jól élhető térben – egyedülállóknak vagy pároknak.</p>",
+  "meta_description": "Eladó első emeleti lakás zárt lakóparkban, napfényes tágas nappalival és egy hálószobával. A kellemes klímáról energiatakarékos multi…",
+  "card_image": {
+   "img": "A7-12",
+   "alt": "Két ablakos szoba, klímaegység a falon"
+  },
+  "photos": [
+   {
+    "img": "A7-12",
+    "alt": "Két ablakos szoba, klímaegység a falon"
+   },
+   {
+    "img": "A7-11",
+    "alt": "Fürdőszoba és fürdőkád, mosdószekrény"
+   },
+   {
+    "img": "A7-10",
+    "alt": "Fürdőszoba és illemhely bejárati része, modern megjelenésű burkolattal"
+   },
+   {
+    "img": "A7-9",
+    "alt": "Nézet az üveges korlátos erkélyről a füves tájra"
+   },
+   {
+    "img": "A7-8",
+    "alt": "Előszobából a bejárati ajtó felé nézet"
+   },
+   {
+    "img": "A7-7",
+    "alt": "Ablaknézet a kültérre"
+   },
+   {
+    "img": "A7-6",
+    "alt": "Ablaknézet a kültérre"
+   },
+   {
+    "img": "A7-5",
+    "alt": "Klímával ellátott helyiség"
+   },
+   {
+    "img": "A7-4",
+    "alt": "Szoba felé nézet - kapcsolók és vezérlők"
+   },
+   {
+    "img": "A7-3",
+    "alt": "Tágas, világos szoba parkettás padlóburkolattal és nagy nyílászárókkal"
+   }
+  ],
+  "floorplan": {
+   "img": "B7",
+   "alt": "B7 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előtér",
+    "area": "5,63 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,22 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "7,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "16,06 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "12,42 ㎡"
+   }
+  ],
+  "total_area": 47.26,
+  "total_area_label": "47,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 43516798,
+  "available": false
+ },
+ {
+  "id": "b8",
+  "name": "Lakás B8",
+  "building": "B",
+  "level": 2,
+  "seo_heading": "Különleges tetőtéri lakás eladó Kaposváron",
+  "description_html": "<p>Erkélyes, világos csendes otthon tágas nappalival és két kényelmes szobával, különálló vendégmosdóval. A modern multi klíma rendszer minden évszakban ideális hőmérséklet biztosít még a tetőtérben is!</p>",
+  "meta_description": "Erkélyes, világos csendes otthon tágas nappalival és két kényelmes szobával, különálló vendégmosdóval. A modern multi klíma rendszer…",
+  "card_image": {
+   "img": "A8-10",
+   "alt": "Erkélyre kivezető szoba, zöld panoráma nézettel"
+  },
+  "photos": [
+   {
+    "img": "A8-11",
+    "alt": "Erkélyre kivezető szoba, radiátorral a falon"
+   },
+   {
+    "img": "A8-10",
+    "alt": "Erkélyre kivezető szoba, zöld panoráma nézettel"
+   },
+   {
+    "img": "A8-9",
+    "alt": "Erkélyes szoba"
+   },
+   {
+    "img": "A8-8",
+    "alt": "Lakás közlekedő része"
+   },
+   {
+    "img": "A8-7",
+    "alt": "Kis szoba, klímaegységgel a falon"
+   },
+   {
+    "img": "A8-6",
+    "alt": "Kis szoba"
+   },
+   {
+    "img": "A8-5",
+    "alt": "Illemhely, modern csempeburkolattal"
+   },
+   {
+    "img": "A8-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A8-3",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A8-2",
+    "alt": "Lakás előtere - nézet a bejárati ajtó felé"
+   }
+  ],
+  "floorplan": {
+   "img": "B8",
+   "alt": "B8 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "6,65 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "18,27 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,56 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,20 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 51.37,
+  "total_area_label": "51,37 ㎡ (nettó)",
+  "gross_area_label": "55,29 ㎡ (bruttó)",
+  "price": 47269095,
+  "available": false
+ },
+ {
+  "id": "b9",
+  "name": "Lakás B9",
+  "building": "B",
+  "level": 2,
+  "seo_heading": "Tetőtéri modern lakás zárt lakóparkban",
+  "description_html": "<p>Eladó egy világos, erkélyes új ingatlan Kaposváron. A fürdőszoba káddal és zuhanyzóval, valamint okos bojlerrel felszerelt, emellett külön mosdó biztosítja a kényelmet. A multi klíma rendszer és a minőségi szigetelés egész évben gondoskodik az ideális hőmérsékletről.</p>",
+  "meta_description": "Eladó egy világos, erkélyes új ingatlan Kaposváron. A fürdőszoba káddal és zuhanyzóval, valamint okos bojlerrel felszerelt, emellett…",
+  "card_image": {
+   "img": "A9-6",
+   "alt": "Lakás tágas előtere"
+  },
+  "photos": [
+   {
+    "img": "A9-18",
+    "alt": "Tetőteres ablakok"
+   },
+   {
+    "img": "A9-17",
+    "alt": "Bejárati nézet a szoba felé"
+   },
+   {
+    "img": "A9-16",
+    "alt": "Tetőtér szoba"
+   },
+   {
+    "img": "A9-15",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A9-13",
+    "alt": "Szobasarok és klímaegység a falon"
+   },
+   {
+    "img": "A9-12",
+    "alt": "Fürdőszoba modern csempeburkolattal, zuhanykabinnal és amellett törölközőszárító"
+   },
+   {
+    "img": "A9-11",
+    "alt": "Fürdőszoba - fürdőkád és törölköző szárító"
+   },
+   {
+    "img": "A9-10",
+    "alt": "Közlekedő helyiség a szobákba vezető ajtókkal"
+   },
+   {
+    "img": "A9-7",
+    "alt": "Lakás tágas előtere"
+   },
+   {
+    "img": "A9-6",
+    "alt": "Lakás tágas előtere"
+   }
+  ],
+  "floorplan": {
+   "img": "B9",
+   "alt": "B9 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "21,78 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Közlekedő",
+    "area": "4,07 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "9,29 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "11,76 ㎡"
+   }
+  ],
+  "total_area": 62.42,
+  "total_area_label": "62,42 ㎡ (nettó)",
+  "gross_area_label": "75,24 ㎡ (bruttó)",
+  "price": 56021950,
+  "available": false
+ },
+ {
+  "id": "b10",
+  "name": "Lakás B10",
+  "building": "B",
+  "level": 2,
+  "seo_heading": "Új kaposvári lakás lenyűgöző panorámával",
+  "description_html": "<p>Csendes és korszerű otthon, a fürdőben Ariston okos bojler biztosítja az energiatakarékos melegvíz-ellátást, míg a Gree multi klíma rendszer gondoskodik az állandó, kellemes hőmérsékletről – a tetőtéri fekvéstől függetlenül.</p>",
+  "meta_description": "Csendes és korszerű otthon, a fürdőben Ariston okos bojler biztosítja az energiatakarékos melegvíz-ellátást, míg a Gree multi klíma…",
+  "card_image": {
+   "img": "A10-3",
+   "alt": "Tágas, világos helyiség és parketta padlóburkolat - saroknézetből"
+  },
+  "photos": [
+   {
+    "img": "A10-10",
+    "alt": "Parkettás szoba - saroknézetből"
+   },
+   {
+    "img": "A10-9",
+    "alt": "Parkettás szoba"
+   },
+   {
+    "img": "A10-7",
+    "alt": "Modern megjelenésű fürdőszoba, kád és WC"
+   },
+   {
+    "img": "A10-5",
+    "alt": "Modern megjelenésű fürdőszoba, mosdószekrény és törölközőszárító"
+   },
+   {
+    "img": "A10-3",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat - saroknézetből"
+   },
+   {
+    "img": "A10-2",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat, rolós ablakok"
+   },
+   {
+    "img": "A10-1",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat"
+   },
+   {
+    "img": "A10-12",
+    "alt": "Ablaknézetből a személyes parkoló"
+   },
+   {
+    "img": "A10-11",
+    "alt": "Ablaknézet a kinti zöld, füves tájra"
+   },
+   {
+    "img": "A10-8",
+    "alt": "Ablaknézet a városi panorámára"
+   }
+  ],
+  "floorplan": {
+   "img": "B10",
+   "alt": "B10 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "4,52 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,76 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "3,45 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali konyha",
+    "area": "23,67 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba",
+    "area": "9,72 ㎡"
+   }
+  ],
+  "total_area": 46.12,
+  "total_area_label": "46,12 ㎡ (nettó)",
+  "gross_area_label": "59,28 ㎡ (bruttó)",
+  "price": 41462680,
+  "available": false
+ },
+ {
+  "id": "b11",
+  "name": "Lakás B11",
+  "building": "B",
+  "level": 2,
+  "seo_heading": "Modern, egyterű tetőtéri lakás ideális hőmérséklettel",
+  "description_html": "<p>Eladó egy világos, rugalmasan alakítható egyterű tetőtéri lakás, mely tökéletes választás fiataloknak vagy első otthont keresőknek. Praktikus, energiatakarékos és stílusos megoldás egy jól élhető térben!</p>",
+  "meta_description": "Eladó egy világos, rugalmasan alakítható egyterű tetőtéri lakás, mely tökéletes választás fiataloknak vagy első otthont keresőknek….",
+  "card_image": {
+   "img": "A11-9",
+   "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+  },
+  "photos": [
+   {
+    "img": "A11-14",
+    "alt": "Bejárati ajtó és előtér, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-13",
+    "alt": "Tetőtér szoba ablakai - előnézetből"
+   },
+   {
+    "img": "A11-11",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-9",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-7",
+    "alt": "Tágas, fényes helyiség, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-6",
+    "alt": "Modern bukolattal ellátott Illemhely és fa ajtó"
+   },
+   {
+    "img": "A11-4",
+    "alt": "Fürdőszoba beltere és zuhanykabin"
+   },
+   {
+    "img": "A11-3",
+    "alt": "Ablaknézet a zöld városi panorámára"
+   },
+   {
+    "img": "A11-2",
+    "alt": "Parketta padlóburkolattal ellátott, világos fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A11-1",
+    "alt": "Bejárati ajtó és előtér"
+   }
+  ],
+  "floorplan": {
+   "img": "B11",
+   "alt": "B11 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előtér",
+    "area": "3,11 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,86 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "24,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,50 ㎡"
+   }
+  ],
+  "total_area": 37.63,
+  "total_area_label": "37,63 ㎡ (nettó)",
+  "gross_area_label": "48,22 ㎡ (bruttó)",
+  "price": 34041889,
+  "available": false
+ },
+ {
+  "id": "c1",
+  "name": "Lakás C1",
+  "building": "C",
+  "level": 0,
+  "seo_heading": "Kertkapcsolatos, világos otthon Kaposváron",
+  "description_html": "<p>Hangulatos ingatlan tágas nappalival és egy szobával, illetve saját kerttel – tökéletes választás egyedülállóknak vagy pároknak. Okosbojlerrel felszerelt fürdőszoba és minden évszakban kellemes hőmérsékletet biztosító multi klíma rendszer.</p>",
+  "meta_description": "Hangulatos ingatlan tágas nappalival és egy szobával, illetve saját kerttel - tökéletes választás egyedülállóknak vagy pároknak….",
+  "card_image": {
+   "img": "A1-6",
+   "alt": "Lakás közlekedő helyiség"
+  },
+  "photos": [
+   {
+    "img": "A1-10",
+    "alt": "Üveges bejárati ajtó"
+   },
+   {
+    "img": "A1-9",
+    "alt": "Lakás helyiség - bejárati ajtó nyitott állapotban"
+   },
+   {
+    "img": "A1-8",
+    "alt": "Házbejárat, füves előtérrel és lakópark kerítése"
+   },
+   {
+    "img": "A1-7",
+    "alt": "Lakópark kerítése és a mögötte lévő füves táj"
+   },
+   {
+    "img": "A1-6",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A1-5",
+    "alt": "Lakás helyiség - két ablakos szoba és klíma"
+   },
+   {
+    "img": "A1-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-3",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A1-2",
+    "alt": "Lakás elószoba - bejárat"
+   },
+   {
+    "img": "A1-1",
+    "alt": "Lakás előszoba"
+   }
+  ],
+  "floorplan": {
+   "img": "C1",
+   "alt": "C1 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "4,14 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC fürdő",
+    "area": "5,10 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "13,35 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "7,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "21,78 ㎡"
+   }
+  ],
+  "total_area": 51.97,
+  "total_area_label": "51,97 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 53713000,
+  "available": true
+ },
+ {
+  "id": "c2",
+  "name": "Lakás C2",
+  "building": "C",
+  "level": 0,
+  "seo_heading": "Új építésű háromszobás lakás Kaposváron",
+  "description_html": "<p>Eladó földszint lakás tágas nappalival, külön mosdóval -a fürdőben kád és zuhany is helyet kapott. Modern felszereltség: Gree multi klíma és Ariston okos bojler. Közvetlen kertkapcsolat, nyugodt környezet, kiváló elrendezés – ideális családi otthon.</p>",
+  "meta_description": "Eladó földszint lakás tágas nappalival, külön mosdóval -a fürdőben kád és zuhany is helyet kapott. Modern felszereltség: Gree multi…",
+  "card_image": {
+   "img": "A2-10",
+   "alt": "Klímával ellátott szoba"
+  },
+  "photos": [
+   {
+    "img": "A2-11",
+    "alt": "Előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-12",
+    "alt": "A ház füves bejárati része és a lakópark kerítése"
+   },
+   {
+    "img": "A2-10",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A2-9",
+    "alt": "Berendezett fürdőszoba, káddal, fehér színű mintás burkolattal"
+   },
+   {
+    "img": "A2-8",
+    "alt": "Illemhely - fehér, mintás burkolattal és fa ajtóval"
+   },
+   {
+    "img": "A2-7",
+    "alt": "Stílusos ajtók"
+   },
+   {
+    "img": "A2-6",
+    "alt": "Lakás beltér"
+   },
+   {
+    "img": "A2-5",
+    "alt": ""
+   },
+   {
+    "img": "A2-4",
+    "alt": "Lakás előszoba és üveges bejárati ajtó"
+   },
+   {
+    "img": "A2-3",
+    "alt": "Laká szoba"
+   }
+  ],
+  "floorplan": {
+   "img": "C2",
+   "alt": "C2 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,60 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 3",
+    "area": "11,76 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.16,
+  "total_area_label": "72,16 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 71896000,
+  "available": true
+ },
+ {
+  "id": "c3",
+  "name": "Lakás C3",
+  "building": "C",
+  "level": 0,
+  "seo_heading": "Csendes ingatlan zárt lakóparkban",
+  "description_html": "<p>Földszinti, világos 2 szobás ingatlan két mosdóval. Csendes, biztonságos és zöld környezet, kiváló elrendezés, modern felszereltség. Kényelmes életvitelhez vagy akár befektetésnek is tökéletes választás!</p>",
+  "meta_description": "Földszinti, világos 2 szobás ingatlan két mosdóval. Csendes, biztonságos és zöld környezet, kiváló elrendezés, modern felszereltség….",
+  "card_image": {
+   "img": "no-photo",
+   "alt": ""
+  },
+  "photos": [],
+  "floorplan": {
+   "img": "C3",
+   "alt": "C3 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "0. szint",
+    "room": "Előszoba",
+    "area": "3,22 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Fürdő",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Konyha",
+    "area": "5,15 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "8,62 ㎡"
+   },
+   {
+    "level": "0. szint",
+    "room": "Szoba",
+    "area": "11,70 ㎡"
+   }
+  ],
+  "total_area": 58.09,
+  "total_area_label": "58,09 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 60087500,
+  "available": true
+ },
+ {
+  "id": "c4",
+  "name": "Lakás C4",
+  "building": "C",
+  "level": 1,
+  "seo_heading": "Modern, új építésű lakás eladó Kaposváron",
+  "description_html": "<p>Első emeleti, 2 szobás lakás tágas nappalival, modern fürdőszobával, Gree multi klímával és Ariston okos bojlerrel felszerelve. Újépítésű társasházban, rendezett, zárt lakóparkban, csendes környezetben.</p>",
+  "meta_description": "Első emeleti, 2 szobás lakás tágas nappalival, modern fürdőszobával, Gree multi klímával és Ariston okos bojlerrel felszerelve….",
+  "card_image": {
+   "img": "A4-11",
+   "alt": "Tágas előszoba teljes nézetben és bejárati ajtó"
+  },
+  "photos": [
+   {
+    "img": "A4-14",
+    "alt": "Tágas, világos helyiség"
+   },
+   {
+    "img": "A4-13",
+    "alt": "Üvegkorlátos erkélyről nézet a zöld fás környezetre"
+   },
+   {
+    "img": "A4-12",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A4-11",
+    "alt": "Tágas előszoba teljes nézetben és bejárati ajtó"
+   },
+   {
+    "img": "A4-10",
+    "alt": "Üres, világos szoba"
+   },
+   {
+    "img": "A4-9",
+    "alt": "Üres szoba, fa ajtóval"
+   },
+   {
+    "img": "A4-8",
+    "alt": "Ablakból nézet a zöld, fás környezetre"
+   },
+   {
+    "img": "A4-7",
+    "alt": "Szoba, klímaegységgel a falon"
+   },
+   {
+    "img": "A4-6",
+    "alt": "Illemhely"
+   },
+   {
+    "img": "A4-5",
+    "alt": "Fürdőszoba helyiség, mosdószekrénnyel és sítlusos csempeburkolattal"
+   }
+  ],
+  "floorplan": {
+   "img": "C4",
+   "alt": "C4 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "7,48 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "6,57 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "17,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "4,00 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 53.26,
+  "total_area_label": "53,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 55280500,
+  "available": true
+ },
+ {
+  "id": "c5",
+  "name": "Lakás C5",
+  "building": "C",
+  "level": 1,
+  "seo_heading": "Tágas 3 szobás otthon erkéllyel",
+  "description_html": "<p>Eladó első emeleti világos otthon extra kényelmi funkciókkal: három különálló szoba, zuhanyzó plusz kádas fürdőszoba, energiatakarékos okos bojler, modern multi klíma rendszer. Ideális nagyobb családnak vagy tágas életteret keresőknek.</p>",
+  "meta_description": "Eladó első emeleti világos otthon extra kényelmi funkciókkal: három különálló szoba, zuhanyzó plusz kádas fürdőszoba, energiatakarékos…",
+  "card_image": {
+   "img": "A5-11",
+   "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+  },
+  "photos": [
+   {
+    "img": "A5-11",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-10",
+    "alt": "Üres szobába nézet a bejáratáról, klímaegységgel a falon"
+   },
+   {
+    "img": "A5-9",
+    "alt": "Modern berendezett fürdőszoba fürdőkáddal, törölközőszárítóval"
+   },
+   {
+    "img": "A5-8",
+    "alt": "Kis szobába nézet a bejáratától"
+   },
+   {
+    "img": "A5-7",
+    "alt": "Lakás közelekő része, ajtókkal a különböző helyiségekhez"
+   },
+   {
+    "img": "A5-6",
+    "alt": "Szobasarok"
+   },
+   {
+    "img": "A5-5",
+    "alt": "Előtér és üveges bejárati ajtó - előnézetből"
+   },
+   {
+    "img": "A5-4",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   },
+   {
+    "img": "A5-3",
+    "alt": "Illemhely előnézetből, modern csempeburkolattal"
+   },
+   {
+    "img": "A5-2",
+    "alt": "Szoba, klíma egységgel a falon"
+   }
+  ],
+  "floorplan": {
+   "img": "C5",
+   "alt": "C5 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,68 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "4,29 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "9,75 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 3",
+    "area": "11,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "10,36 ㎡"
+   }
+  ],
+  "total_area": 72.53,
+  "total_area_label": "72,53 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 71896000,
+  "available": true
+ },
+ {
+  "id": "c6",
+  "name": "Lakás C6",
+  "building": "C",
+  "level": 1,
+  "seo_heading": "Világos, erkélyes lakás praktikus elrendezéssel",
+  "description_html": "<p>Eladó első emeleti új építésű ingatlan két kényelmes szobával, különálló vendégmosdóval, energiahatékony, okos megoldásokkal. Párok vagy kisebb családok számára kiváló választás.</p>",
+  "meta_description": "Eladó első emeleti új építésű ingatlan két kényelmes szobával, különálló vendégmosdóval, energiahatékony, okos megoldásokkal….",
+  "card_image": {
+   "img": "no-photo",
+   "alt": ""
+  },
+  "photos": [],
+  "floorplan": {
+   "img": "C6",
+   "alt": "C6 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előszoba",
+    "area": "2,86 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba",
+    "area": "5,44 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "WC",
+    "area": "1,04 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "5,51 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "20,54 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Közlekedő",
+    "area": "2,38 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 1",
+    "area": "11,70 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba 2",
+    "area": "8,63 ㎡"
+   }
+  ],
+  "total_area": 58.1,
+  "total_area_label": "58,10 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 59983000,
+  "available": false
+ },
+ {
+  "id": "c7",
+  "name": "Lakás C7",
+  "building": "C",
+  "level": 1,
+  "seo_heading": "Új építésű, modern lakás francia erkéllyel",
+  "description_html": "<p>Eladó első emeleti lakás zárt lakóparkban, napfényes tágas nappalival és egy hálószobával. A kellemes klímáról energiatakarékos multi klíma rendszer gondoskodik. Kényelmes, korszerű megoldások egy jól élhető térben – egyedülállóknak vagy pároknak.</p>",
+  "meta_description": "Eladó első emeleti lakás zárt lakóparkban, napfényes tágas nappalival és egy hálószobával. A kellemes klímáról energiatakarékos multi…",
+  "card_image": {
+   "img": "A7-4",
+   "alt": "Szoba felé nézet - kapcsolók és vezérlők"
+  },
+  "photos": [
+   {
+    "img": "A7-12",
+    "alt": "Két ablakos szoba, klímaegység a falon"
+   },
+   {
+    "img": "A7-11",
+    "alt": "Fürdőszoba és fürdőkád, mosdószekrény"
+   },
+   {
+    "img": "A7-10",
+    "alt": "Fürdőszoba és illemhely bejárati része, modern megjelenésű burkolattal"
+   },
+   {
+    "img": "A7-9",
+    "alt": "Nézet az üveges korlátos erkélyről a füves tájra"
+   },
+   {
+    "img": "A7-8",
+    "alt": "Előszobából a bejárati ajtó felé nézet"
+   },
+   {
+    "img": "A7-7",
+    "alt": "Ablaknézet a kültérre"
+   },
+   {
+    "img": "A7-6",
+    "alt": "Ablaknézet a kültérre"
+   },
+   {
+    "img": "A7-5",
+    "alt": "Klímával ellátott helyiség"
+   },
+   {
+    "img": "A7-4",
+    "alt": "Szoba felé nézet - kapcsolók és vezérlők"
+   },
+   {
+    "img": "A7-3",
+    "alt": "Tágas, világos szoba parkettás padlóburkolattal és nagy nyílászárókkal"
+   }
+  ],
+  "floorplan": {
+   "img": "C7",
+   "alt": "C7 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "1. szint",
+    "room": "Előtér",
+    "area": "5,63 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,22 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Konyha",
+    "area": "7,93 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Nappali",
+    "area": "16,06 ㎡"
+   },
+   {
+    "level": "1. szint",
+    "room": "Szoba",
+    "area": "12,42 ㎡"
+   }
+  ],
+  "total_area": 47.26,
+  "total_area_label": "47,26 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 47861000,
+  "available": true
+ },
+ {
+  "id": "c8",
+  "name": "Lakás C8",
+  "building": "C",
+  "level": 2,
+  "seo_heading": "Különleges tetőtéri lakás eladó Kaposváron",
+  "description_html": "<p>Erkélyes, világos csendes otthon tágas nappalival és két kényelmes szobával, különálló vendégmosdóval. A modern multi klíma rendszer minden évszakban ideális hőmérséklet biztosít még a tetőtérben is!</p>",
+  "meta_description": "Erkélyes, világos csendes otthon tágas nappalival és két kényelmes szobával, különálló vendégmosdóval. A modern multi klíma rendszer…",
+  "card_image": {
+   "img": "A8-10",
+   "alt": "Erkélyre kivezető szoba, zöld panoráma nézettel"
+  },
+  "photos": [
+   {
+    "img": "A8-11",
+    "alt": "Erkélyre kivezető szoba, radiátorral a falon"
+   },
+   {
+    "img": "A8-10",
+    "alt": "Erkélyre kivezető szoba, zöld panoráma nézettel"
+   },
+   {
+    "img": "A8-9",
+    "alt": "Erkélyes szoba"
+   },
+   {
+    "img": "A8-8",
+    "alt": "Lakás közlekedő része"
+   },
+   {
+    "img": "A8-7",
+    "alt": "Kis szoba, klímaegységgel a falon"
+   },
+   {
+    "img": "A8-6",
+    "alt": "Kis szoba"
+   },
+   {
+    "img": "A8-5",
+    "alt": "Illemhely, modern csempeburkolattal"
+   },
+   {
+    "img": "A8-4",
+    "alt": "Berendezett fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A8-3",
+    "alt": "Lakás közlekedő helyiség"
+   },
+   {
+    "img": "A8-2",
+    "alt": "Lakás előtere - nézet a bejárati ajtó felé"
+   }
+  ],
+  "floorplan": {
+   "img": "C8",
+   "alt": "C8 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "6,65 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,35 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "18,27 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,56 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "8,03 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,20 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "8,30 ㎡"
+   }
+  ],
+  "total_area": 51.37,
+  "total_area_label": "51,37 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 51936500,
+  "available": true
+ },
+ {
+  "id": "c9",
+  "name": "Lakás C9",
+  "building": "C",
+  "level": 2,
+  "seo_heading": "Tetőtéri modern lakás zárt lakóparkban",
+  "description_html": "<p>Eladó egy világos, erkélyes új ingatlan Kaposváron. A fürdőszoba káddal és zuhanyzóval, valamint okos bojlerrel felszerelt, emellett külön mosdó biztosítja a kényelmet. A multi klíma rendszer és a minőségi szigetelés egész évben gondoskodik az ideális hőmérsékletről.</p>",
+  "meta_description": "Eladó egy világos, erkélyes új ingatlan Kaposváron. A fürdőszoba káddal és zuhanyzóval, valamint okos bojlerrel felszerelt, emellett…",
+  "card_image": {
+   "img": "A9-6",
+   "alt": "Lakás tágas előtere"
+  },
+  "photos": [
+   {
+    "img": "A9-18",
+    "alt": "Tetőteres ablakok"
+   },
+   {
+    "img": "A9-17",
+    "alt": "Bejárati nézet a szoba felé"
+   },
+   {
+    "img": "A9-16",
+    "alt": "Tetőtér szoba"
+   },
+   {
+    "img": "A9-15",
+    "alt": "Klímával ellátott szoba"
+   },
+   {
+    "img": "A9-13",
+    "alt": "Szobasarok és klímaegység a falon"
+   },
+   {
+    "img": "A9-12",
+    "alt": "Fürdőszoba modern csempeburkolattal, zuhanykabinnal és amellett törölközőszárító"
+   },
+   {
+    "img": "A9-11",
+    "alt": "Fürdőszoba - fürdőkád és törölköző szárító"
+   },
+   {
+    "img": "A9-10",
+    "alt": "Közlekedő helyiség a szobákba vezető ajtókkal"
+   },
+   {
+    "img": "A9-7",
+    "alt": "Lakás tágas előtere"
+   },
+   {
+    "img": "A9-6",
+    "alt": "Lakás tágas előtere"
+   }
+  ],
+  "floorplan": {
+   "img": "C9",
+   "alt": "C9 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "3,80 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "WC",
+    "area": "1,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "21,78 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,32 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Közlekedő",
+    "area": "4,07 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "6,23 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 1",
+    "area": "9,29 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba 2",
+    "area": "11,76 ㎡"
+   }
+  ],
+  "total_area": 62.42,
+  "total_area_label": "62,42 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 61466900,
+  "available": true
+ },
+ {
+  "id": "c10",
+  "name": "Lakás C10",
+  "building": "C",
+  "level": 2,
+  "seo_heading": "Új kaposvári lakás lenyűgöző panorámával",
+  "description_html": "<p>Csendes és korszerű otthon, a fürdőben Ariston okos bojler biztosítja az energiatakarékos melegvíz-ellátást, míg a Gree multi klíma rendszer gondoskodik az állandó, kellemes hőmérsékletről – a tetőtéri fekvéstől függetlenül.</p>",
+  "meta_description": "Csendes és korszerű otthon, a fürdőben Ariston okos bojler biztosítja az energiatakarékos melegvíz-ellátást, míg a Gree multi klíma…",
+  "card_image": {
+   "img": "A10-2",
+   "alt": "Tágas, világos helyiség és parketta padlóburkolat, rolós ablakok"
+  },
+  "photos": [
+   {
+    "img": "A10-10",
+    "alt": "Parkettás szoba - saroknézetből"
+   },
+   {
+    "img": "A10-9",
+    "alt": "Parkettás szoba"
+   },
+   {
+    "img": "A10-7",
+    "alt": "Modern megjelenésű fürdőszoba, kád és WC"
+   },
+   {
+    "img": "A10-5",
+    "alt": "Modern megjelenésű fürdőszoba, mosdószekrény és törölközőszárító"
+   },
+   {
+    "img": "A10-3",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat - saroknézetből"
+   },
+   {
+    "img": "A10-2",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat, rolós ablakok"
+   },
+   {
+    "img": "A10-1",
+    "alt": "Tágas, világos helyiség és parketta padlóburkolat"
+   },
+   {
+    "img": "A10-12",
+    "alt": "Ablaknézetből a személyes parkoló"
+   },
+   {
+    "img": "A10-8",
+    "alt": "Ablaknézet a városi panorámára"
+   },
+   {
+    "img": "A10-11",
+    "alt": "Ablaknézet a kinti zöld, füves tájra"
+   }
+  ],
+  "floorplan": {
+   "img": "C10",
+   "alt": "C10 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előszoba",
+    "area": "4,52 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba",
+    "area": "4,76 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "3,45 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali konyha",
+    "area": "23,67 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Szoba",
+    "area": "9,72 ㎡"
+   }
+  ],
+  "total_area": 46.12,
+  "total_area_label": "46,12 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 47986400,
+  "available": true
+ },
+ {
+  "id": "c11",
+  "name": "Lakás C11",
+  "building": "C",
+  "level": 2,
+  "seo_heading": "Modern, egyterű tetőtéri lakás ideális hőmérséklettel",
+  "description_html": "<p>Eladó egy világos, rugalmasan alakítható egyterű tetőtéri lakás, mely tökéletes választás fiataloknak vagy első otthont keresőknek. Praktikus, energiatakarékos és stílusos megoldás egy jól élhető térben!</p>",
+  "meta_description": "Eladó egy világos, rugalmasan alakítható egyterű tetőtéri lakás, mely tökéletes választás fiataloknak vagy első otthont keresőknek….",
+  "card_image": {
+   "img": "A11-9",
+   "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+  },
+  "photos": [
+   {
+    "img": "A11-14",
+    "alt": "Bejárati ajtó és előtér, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-13",
+    "alt": "Tetőtér szoba ablakai - előnézetből"
+   },
+   {
+    "img": "A11-11",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-9",
+    "alt": "Tetőtér szoba két ablakkal és parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-7",
+    "alt": "Tágas, fényes helyiség, parketta padlóburkolattal"
+   },
+   {
+    "img": "A11-6",
+    "alt": "Modern bukolattal ellátott Illemhely és fa ajtó"
+   },
+   {
+    "img": "A11-4",
+    "alt": "Fürdőszoba beltere és zuhanykabin"
+   },
+   {
+    "img": "A11-3",
+    "alt": "Ablaknézet a zöld városi panorámára"
+   },
+   {
+    "img": "A11-2",
+    "alt": "Parketta padlóburkolattal ellátott, világos fürdőszoba, zuhanykabinnal"
+   },
+   {
+    "img": "A11-1",
+    "alt": "Bejárati ajtó és előtér"
+   }
+  ],
+  "floorplan": {
+   "img": "C11",
+   "alt": "C11 lakás alaprajz"
+  },
+  "rooms": [
+   {
+    "level": "2. szint",
+    "room": "Előtér",
+    "area": "3,11 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Fürdőszoba, WC",
+    "area": "5,86 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Nappali",
+    "area": "24,17 ㎡"
+   },
+   {
+    "level": "2. szint",
+    "room": "Konyha",
+    "area": "4,50 ㎡"
+   }
+  ],
+  "total_area": 37.63,
+  "total_area_label": "37,63 ㎡ (nettó)",
+  "gross_area_label": "",
+  "price": 37411000,
+  "available": true
+ }
+]

@@ -1,0 +1,11 @@
+{% from "partials/macros.html" import icon with context %}
+<dialog class="lightbox" data-lightbox-dialog aria-label="Képnézegető">
+  <div class="lightbox__frame">
+    <img class="lightbox__img" alt="" data-lightbox-img>
+    <p class="lightbox__caption" data-lightbox-caption></p>
+  </div>
+  <p class="lightbox__count" data-lightbox-count aria-live="polite"></p>
+  <button type="button" class="icon-btn icon-btn--glass lightbox__close" data-lightbox-close aria-label="Bezárás">{{ icon("close") }}</button>
+  <button type="button" class="icon-btn icon-btn--glass lightbox__prev" data-lightbox-prev aria-label="Előző kép">{{ icon("arrow-left") }}</button>
+  <button type="button" class="icon-btn icon-btn--glass lightbox__next" data-lightbox-next aria-label="Következő kép">{{ icon("arrow-right") }}</button>
+</dialog>

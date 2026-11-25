@@ -1,0 +1,46 @@
+{% macro icon(name, cls="") -%}
+<svg class="icon{% if cls %} {{ cls }}{% endif %}" aria-hidden="true" focusable="false"><use href="#i-{{ name }}"/></svg>
+{%- endmacro %}
+
+{% macro info_box(text_html, cls="") -%}
+<p class="info-box{% if cls %} {{ cls }}{% endif %}">{{ icon("info") }}<span>{{ text_html|safe }}</span></p>
+{%- endmacro %}
+
+{# A horizontally scrolling, snap-aligned gallery. Images open in the shared lightbox. #}
+{% macro carousel(images, label, sizes="(min-width: 1024px) 50vw, 100vw", cls="") -%}
+<div class="carousel{% if cls %} {{ cls }}{% endif %}" data-carousel aria-roledescription="galéria" aria-label="{{ label }}">
+  <div class="carousel__track" data-carousel-track tabindex="0">
+    {% for im in images %}
+    <figure class="carousel__slide" aria-label="{{ loop.index }} / {{ images|length }}">
+      <button type="button" class="carousel__open" data-lightbox="{{ label }}" data-full="{{ img_url(im.img) }}" data-caption="{{ im.alt }}">
+        {{ img(im.img, alt=im.alt, sizes=sizes, attrs=('style="object-position: ' ~ im.get("pos") ~ '"') if im.get("pos") else "") }}
+      </button>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="carousel__controls">
+    <button type="button" class="icon-btn" data-carousel-prev aria-label="Előző kép">{{ icon("arrow-left") }}</button>
+    <span class="carousel__count" data-carousel-count aria-live="polite">1 / {{ images|length }}</span>
+    <button type="button" class="icon-btn" data-carousel-next aria-label="Következő kép">{{ icon("arrow-right") }}</button>
+  </div>
+</div>
+{%- endmacro %}
+
+{% macro apartment_card(v, heading="h3", show_excerpt=False) -%}
+<article class="apt-card{% if not v.available %} is-taken{% endif %}" data-apt-card>
+  <div class="apt-card__media">
+    {{ img(v.card_image.img, alt=v.card_image.alt, sizes="(min-width: 1200px) 360px, (min-width: 700px) 45vw, 90vw") }}
+    <span class="badge {{ 'badge--ok' if v.available else 'badge--taken' }}">{{ "Elérhető" if v.available else "Foglalt" }}</span>
+  </div>
+  <div class="apt-card__body">
+    <{{ heading }} class="apt-card__title"><a href="{{ root }}elado-lakasok/{{ v.id }}/" class="stretched">{{ v.name }}</a></{{ heading }}>
+    {% if v.seo_heading %}<p class="apt-card__seo">{{ v.seo_heading }}</p>{% endif %}
+    {% if show_excerpt and v.description_html %}<div class="apt-card__excerpt">{{ v.description_html|striptags }}</div>{% endif %}
+    <ul class="apt-card__facts">
+      <li>{{ icon("building") }}<span>{{ v.building_level }}</span></li>
+      <li>{{ icon("area") }}<span>{{ v.total_area|area }}</span></li>
+    </ul>
+    <p class="apt-card__price">{{ v.price|huf }}</p>
+  </div>
+</article>
+{%- endmacro %}

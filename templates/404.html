@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import icon with context %}
+{% block title %}Az oldal nem található – {{ site.name }}{% endblock %}
+{% block head_first %}<base href="{{ base_path }}">{% endblock %}
+{% block main %}
+<section class="page-hero page-hero--center">
+  <div class="container page-hero__inner page-hero__inner--narrow">
+    <p class="eyebrow">404</p>
+    <h1 class="page-title">Az oldal nem található</h1>
+    <p class="lead">A keresett oldal nem létezik vagy elköltözött.</p>
+    <p><a class="btn btn--primary" href="./">Vissza a kezdőlapra{{ icon("arrow-right") }}</a> <a class="btn btn--outline" href="elado-lakasok/">Lakáslista</a></p>
+  </div>
+</section>
+{% endblock %}

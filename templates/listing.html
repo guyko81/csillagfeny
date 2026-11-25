@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import icon, info_box with context %}
+{% block title %}Csillagfény Lakópark - Eladó lakások Kaposváron{% endblock %}
+{% block description %}Garzon lakásoktól a három hálószobás, családi otthonokig. CSOK finanszírozási segítség.{% endblock %}
+{% block og_title %}Eladó lakások Kaposváron{% endblock %}
+{% block main %}
+<section class="page-hero">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Morzsamenü">
+      <ol>
+        <li><a href="{{ root }}">Csillagfény Lakópark</a></li>
+        <li><span aria-current="page">Eladó lakások Kaposváron</span></li>
+      </ol>
+    </nav>
+    <h1 class="page-title">Eladó lakások Kaposváron</h1>
+    <p class="lead">Ismerje meg a <strong>Csillagfény Lakópark</strong> változatos méretű, új építésű lakásait amelyek <strong>38 és 72 m² közötti alapterülettel rendelkeznek</strong> – garzonoktól a három hálószobás, családi otthonokig.</p>
+  </div>
+</section>
+
+<section class="section section--tight listing" aria-label="Lakáslista">
+  <div class="container listing__grid">
+    <form class="filters card" data-filters aria-label="Szűrők">
+      <div class="filters__head">
+        <h2 class="filters__title">{{ icon("filter") }}Szűrők</h2>
+        <button type="button" class="filters__close icon-btn" data-filters-close aria-label="Szűrők bezárása">{{ icon("close") }}</button>
+      </div>
+      <div class="filter">
+        <label class="filter__label" for="f-building">Épület</label>
+        <select id="f-building" name="epulet" class="select">
+          <option value="">Összes épület</option>
+          {% for b, n in building_counts.items() %}
+          <option value="{{ b }}"{% if n == 0 %} disabled{% endif %}>{{ b }} ({{ n }})</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="filter">
+        <label class="filter__label" for="f-level">Szint</label>
+        <select id="f-level" name="szint" class="select">
+          <option value="">Összes szint</option>
+          {% for lv, n in level_counts.items() %}
+          <option value="{{ lv }}">{{ lv }}. szint ({{ n }})</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="filter">
+        <label class="filter__label" for="f-sort">Rendezés</label>
+        <select id="f-sort" name="rendezes" class="select">
+          <option value="">Rendezés kiválasztása</option>
+          <option value="asc">Növekvő ár</option>
+          <option value="desc">Csökkenő ár</option>
+        </select>
+      </div>
+      <fieldset class="filter">
+        <legend class="filter__label">Elérhetőség</legend>
+        <label class="switch">
+          <input type="checkbox" name="elerheto" value="1" id="f-available">
+          <span class="switch__track" aria-hidden="true"></span>
+          <span>Csak elérhető lakások</span>
+        </label>
+      </fieldset>
+      <fieldset class="filter">
+        <legend class="filter__label">Össz terület</legend>
+        <div class="range" data-range data-min="{{ area_min }}" data-max="{{ area_max }}">
+          <div class="range__inputs">
+            <input type="range" name="min" min="{{ area_min }}" max="{{ area_max }}" step="1" value="{{ area_min }}" aria-label="Minimális terület (m²)">
+            <input type="range" name="max" min="{{ area_min }}" max="{{ area_max }}" step="1" value="{{ area_max }}" aria-label="Maximális terület (m²)">
+          </div>
+          <div class="range__values">
+            <span><small>Min</small> <output data-range-min>{{ area_min }}</output> m²</span>
+            <span><small>Max</small> <output data-range-max>{{ area_max }}</output> m²</span>
+          </div>
+        </div>
+      </fieldset>
+      <button type="reset" class="btn btn--dark btn--block">Szűrők törlése</button>
+    </form>
+
+    <div class="results">
+      <div class="results__bar">
+        <p class="results__count" data-results-count aria-live="polite"><strong>{{ views|length }}</strong> lakás</p>
+        <button type="button" class="btn btn--outline btn--sm filters-open" data-filters-open>{{ icon("filter") }}Szűrők</button>
+      </div>
+      <ul class="apt-list" data-apt-list>
+        {% for v in views %}
+        <li class="apt-row{% if not v.available %} is-taken{% endif %}" data-building="{{ v.building }}" data-level="{{ v.level }}" data-price="{{ v.price }}" data-area="{{ v.total_area }}" data-available="{{ 1 if v.available else 0 }}" data-order="{{ loop.index0 }}">
+          <a class="apt-row__media" href="{{ root }}elado-lakasok/{{ v.id }}/" tabindex="-1" aria-hidden="true">
+            {{ img(v.card_image.img, alt=v.card_image.alt, sizes="(min-width: 1024px) 260px, (min-width: 640px) 40vw, 92vw") }}
+          </a>
+          <div class="apt-row__body">
+            {% if v.seo_heading %}<p class="apt-row__seo">{{ v.seo_heading }}</p>{% endif %}
+            <h2 class="apt-row__title"><a href="{{ root }}elado-lakasok/{{ v.id }}/">{{ v.name }}</a></h2>
+            {% if v.description_html %}<p class="apt-row__excerpt">{{ v.description_html|striptags }}</p>{% endif %}
+            <ul class="apt-row__facts">
+              <li>{{ icon("building") }}{{ v.building_level }}</li>
+              <li>{{ icon("area") }}{{ v.total_area|area }}</li>
+              <li class="avail {{ 'avail--ok' if v.available else 'avail--taken' }}"><span class="dot {{ 'dot--ok' if v.available else 'dot--taken' }}"></span>{{ "Elérhető" if v.available else "Foglalt" }}</li>
+            </ul>
+          </div>
+          <div class="apt-row__aside">
+            <p class="apt-row__price">{{ v.price|huf }}</p>
+            <a class="btn btn--outline btn--sm" href="{{ root }}elado-lakasok/{{ v.id }}/" aria-label="{{ v.name }} részletei">Részletek{{ icon("arrow-right") }}</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="results__empty" data-results-empty hidden>Nincs a szűrésnek megfelelő lakás.</p>
+      {{ info_box("A feltüntetett bruttó árak tartalmazzák az áfát.") }}
+    </div>
+  </div>
+</section>
+
+{% include "partials/park_teaser.html" %}
+{% include "partials/contact.html" %}
+{% endblock %}

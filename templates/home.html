@@ -1,0 +1,393 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import icon, info_box, carousel with context %}
+{% block title %}Csillagfény Lakópark - Új építésű lakások Kaposváron{% endblock %}
+{% block description %}Eladó új építésű, modern, családbarát lakások Kaposvár egyik legszebb pontján. Karnyújtásnyira a természet közelsége és a városi kényelem egyaránt.{% endblock %}
+{% block main %}
+{% set park_images = [
+  {"img": "lakopark-kulso-07", "alt": "A Csillagfény Lakópark egyik epülete és bejárata"},
+  {"img": "lakopark-kulso-01-latvanyterv", "alt": "Csillagfény Lakópark látványterv - A lakópark bejárata"},
+  {"img": "lakopark-kulso-08", "alt": "A Csillagfény Lakópark egyik épülete", "pos": "10% 50%"},
+  {"img": "lakopark-kulso-09", "alt": "Társasház parkolókkal előtte"},
+  {"img": "lakopark-kulso-05-latvanyterv", "alt": "Csillagfény Lakópark látványterv (távolról)"},
+  {"img": "lakopark-kulso-06", "alt": "A Csillagfény Lakópark madárnézetből"},
+  {"img": "lakopark-kulso-03-latvanyterv", "alt": "Csillagfény Lakópark látványterv - parkolók és épületek"},
+  {"img": "lakopark-kulso-11", "alt": "A Csillagfény Lakópark lakásainak erkélye és ablakai"},
+  {"img": "lakopark-kulso-02-latvanyterv", "alt": "Csillagfény Lakópark látványterv - A lakópark"},
+  {"img": "lakopark-kulso-14", "alt": "Csillagfény Lakópark - Egyik lakás hangulatos erkélye"},
+  {"img": "lakopark-kulso-12", "alt": "A Csillagfény Lakópark madárnézetből", "pos": "80% 50%"},
+  {"img": "lakopark-kulso-10", "alt": "Csillagfény Lakópark épülete, saroknézetből", "pos": "10% 50%"},
+] %}
+{% set interior_images = [
+  {"img": "furdoszoba-02", "alt": "Fürdőszoba zöld csempével"},
+  {"img": "furdoszoba-01", "alt": "Zöld csempés fürdőszoba, fényes tetőablakkal"},
+  {"img": "furdoszoba-04", "alt": "Fürdőszoba - Zuhanykabin"},
+  {"img": "furdoszoba-03", "alt": "Modern stílusú fürdőszoba", "pos": "50% 80%"},
+  {"img": "furdoszoba-09", "alt": "Modern WC helyiség", "pos": "50% 85%"},
+  {"img": "furdoszoba-08", "alt": ""},
+  {"img": "furdoszoba-07", "alt": "Fürdőszoba - WC és bojler", "pos": "50% 90%"},
+  {"img": "belso-05", "alt": "Lakás beltere - tágas, világos helyiség", "pos": "35% 95%"},
+  {"img": "belso-04", "alt": "Lakás belső nézete - Kilátás a zöld természetre", "pos": "25% 50%"},
+  {"img": "belso-01", "alt": "Lakás belső nézet - kilátás a zöld tájra", "pos": "30% 50%"},
+] %}
+{% set bathroom_images = [
+  {"img": "furdoszoba-25", "alt": "Fehér burkolattal bevont fürdőszoba - zuhanykabin és WC, illetve mosdószekrény", "pos": "20% 70%"},
+  {"img": "furdoszoba-10", "alt": "Fehér fürdőkád és törölközőszárító radiátor"},
+  {"img": "furdoszoba-13", "alt": "Fehér mosdószekrény dupla mosdóval", "pos": "50% 90%"},
+  {"img": "furdoszoba-20", "alt": "Fürdőszoba csaptelep a stílusos mintázatú csempén", "pos": "50% 15%"},
+  {"img": "furdoszoba-15", "alt": "Fürdőszoba mosdószekrény, fa mintázatú kinézetben", "pos": "10% 95%"},
+  {"img": "furdoszoba-17", "alt": "Háromszög mintázatú fürdőszoba burkolat és csaptelep", "pos": "10% 70%"},
+  {"img": "furdoszoba-23", "alt": "Modern burkolattal rendelkező fürdőszoba"},
+  {"img": "furdoszoba-12", "alt": "Modern zuhanykabin"},
+  {"img": "furdoszoba-16", "alt": "Törölközőszárító és WC"},
+  {"img": "furdoszoba-24", "alt": "Üveg zuhanykabin stílusos falmintázattal", "pos": "10% 50%"},
+  {"img": "furdoszoba-18", "alt": "Világos, tágas fürdőszoba"},
+  {"img": "furdoszoba-14", "alt": "WC helyíség"},
+] %}
+
+{# ───────────── Hero ───────────── #}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__media">
+    {{ img("csillagfeny-lakopark-kaposvar", alt="", sizes="100vw", priority=True) }}
+  </div>
+  <div class="hero__content container">
+    <p class="eyebrow eyebrow--light">{{ icon("pin") }}Új építésű lakások Kaposváron</p>
+    <h1 class="hero__title" id="hero-title">Csillagfény Lakópark</h1>
+    <p class="hero__slogan">A te lakásod, a te otthonod</p>
+    <div class="hero__actions">
+      <a class="btn btn--gold" href="#lakasvalaszto">Lakásválasztó{{ icon("arrow-right") }}</a>
+      <a class="btn btn--glass" href="elado-lakasok/">Lakáslista</a>
+    </div>
+  </div>
+  <div class="hero__facts container">
+    <ul>
+      <li><strong>38–72 m²</strong><span>garzonoktól a három hálószobás otthonokig</span></li>
+      <li><strong>{{ available_count }}</strong><span>elérhető lakás</span></li>
+      <li><strong>2027 Q1</strong><span>az új ütem várható átadása</span></li>
+      <li><strong>CSOK</strong><span>finanszírozási segítség</span></li>
+    </ul>
+  </div>
+  <a class="hero__scroll" href="#lokacio" aria-label="Tovább a lokációhoz">{{ icon("arrow-down") }}</a>
+</section>
+
+{# ───────────── Lokáció ───────────── #}
+<section class="section location" id="lokacio" aria-labelledby="lokacio-title">
+  <div class="container split">
+    <div class="split__text" data-reveal>
+      <h2 class="section-title" id="lokacio-title"><span class="eyebrow">A Csillagfény Lakópark helyszíne</span>Lokáció</h2>
+      <p class="lead">A Csillagfény Lakópark <strong class="hl">Kaposvár</strong> egyik legszebb pontján, egy zölddel körülölelt dombtetőn épül, pár percre a városközponttól. A közeli Zselici erdők, a Tókaji parkerdő, valamint a kiváló infrastruktúra egyszerre biztosítják a természet közelségét és a városi kényelmet.</p>
+      <ul class="checklist">
+        <li>A <strong class="hl">belváros</strong> autóval csak pár perc</li>
+        <li><strong class="hl">Bolt, orvos, állatorvos</strong> a közelben</li>
+        <li><strong class="hl">Buszmegálló</strong> a lakópark mellett</li>
+        <li><strong class="hl">Iskola, óvoda</strong> a közelben</li>
+        <li><strong class="hl">Zöld környezet, tiszta levegő</strong></li>
+        <li>Optimális atmoszféra <strong class="hl">gyerekneveléshez, pihenéshez</strong></li>
+      </ul>
+    </div>
+    <div class="map-card card" data-reveal>
+      {% set m = site.map %}
+      <iframe class="map-card__frame" title="A Csillagfény Lakópark helye a térképen" loading="lazy"
+        src="https://www.openstreetmap.org/export/embed.html?bbox={{ m.lng - 0.012 }}%2C{{ m.lat - 0.006 }}%2C{{ m.lng + 0.012 }}%2C{{ m.lat + 0.006 }}&amp;layer=mapnik&amp;marker={{ m.lat }}%2C{{ m.lng }}"></iframe>
+      <div class="map-card__bar">
+        <span>{{ icon("pin") }}Kaposvár</span>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query={{ m.lat }}%2C{{ m.lng }}" rel="noopener" target="_blank">Útvonaltervezés{{ icon("arrow-up-right") }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ───────────── Feature tiles ───────────── #}
+<section class="section section--pattern features" aria-label="A lakópark és a lakások">
+  <div class="container features__list">
+
+    <article class="feature" aria-labelledby="f1-title">
+      <div class="feature__media" data-reveal>
+        {{ carousel(park_images, "A lakópark képei") }}
+      </div>
+      <div class="feature__body card" data-reveal>
+        <h2 class="section-title" id="f1-title"><span class="eyebrow">Új lakások Kaposváron</span>Pihentető otthon</h2>
+        <p>A teljesen zárt és biztonságos lakópark családbarát kialakítása ideális választás kisgyermekesek számára is. Belső játszótér, saját kertek, hangulatos erkélyek, valamint parkosított környezet teszik teljessé az otthon nyugalmát.</p>
+        <ul class="checklist">
+          <li><strong class="hl">Kerítéssel körbevett</strong>, zárt lakópark</li>
+          <li>Közutaktól elzárt, <strong class="hl">biztonságos terület</strong></li>
+          <li>Saját használatú <strong class="hl">parkolók</strong></li>
+          <li>Földszinti lakások körbekerített saját használatú <strong class="hl">kerttel</strong></li>
+          <li>Emelet lakások <strong class="hl">hangulatos erkéllyel</strong></li>
+          <li><strong class="hl">Gyönyörű panoráma</strong> a városra, és a <strong class="hl">zselici tájra</strong></li>
+          <li>Megvásárolható <strong class="hl">tároló helyiségek</strong></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature feature--reverse" aria-labelledby="f2-title">
+      <div class="feature__media smart-home" data-reveal>
+        <figure class="smart-home__main">
+          {{ img("energy1", alt="Okos otthon érintős vezérlőkijelző", sizes="(min-width: 1024px) 45vw, 90vw") }}
+        </figure>
+        <figure class="smart-home__secondary">
+          <figcaption class="smart-home__label">{{ icon("home") }}Okos otthon</figcaption>
+          {{ img("energy2", alt="Okostelefonon megnyitva az okos otthont kezelő alkalmazás", sizes="(min-width: 1024px) 30vw, 60vw") }}
+        </figure>
+      </div>
+      <div class="feature__body card" data-reveal>
+        <h2 class="section-title" id="f2-title"><span class="eyebrow">Energiahatékony lakások és okos otthon</span>Energiahatékonyság</h2>
+        <ul class="checklist checklist--cols">
+          <li><strong class="hl">Korszerű, energiahatékony</strong> gépészeti rendszerek</li>
+          <li>Valamennyi lakás rezsifogyasztása <strong class="hl">egyedi mérőórákkal</strong> ellátott</li>
+          <li><strong class="hl">Nincs közös</strong> fűtés-hűtés költség</li>
+          <li><strong class="hl">Parapet klímás</strong> beltéri egység a nappalikban</li>
+          <li>Mobil applikációról <strong class="hl">programozható hűtő-fűtő rendszer</strong></li>
+          <li>Valamennyi helyiség hőmérséklete <strong class="hl">külön szabályozható</strong></li>
+          <li><strong class="hl">3 rétegű</strong> nyilászárók kiemelkedő <strong class="hl">hőszigetelő</strong> képességgel</li>
+          <li>15 cm-es <strong class="hl">külső szigetelés</strong></li>
+          <li>Közel <strong class="hl">nulla hőveszteség</strong></li>
+          <li>Korszerű <strong class="hl">LED belső világítási rendszerek</strong></li>
+          <li>Melegvíz ellátás energiahatékony, <strong class="hl">okos bojlerrel</strong></li>
+          <li><strong class="hl">Távirányítós, motoros redőnyök</strong> az erkélyeken</li>
+          <li><strong class="hl">Környezet- és energiatudatos</strong> berendezésekkel felszerelt otthonok</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature" aria-labelledby="f3-title">
+      <div class="feature__media" data-reveal>
+        {{ carousel(interior_images, "Belső terek képei") }}
+      </div>
+      <div class="feature__body card" data-reveal>
+        <h2 class="section-title" id="f3-title"><span class="eyebrow">Modern és elegáns lakások</span>Stílus, design</h2>
+        <ul class="checklist">
+          <li><strong class="hl">Elegáns, letisztult</strong> megjelenés</li>
+          <li><strong class="hl">Tágas, világos</strong> belső terek</li>
+          <li><strong class="hl">Nyugalmat, melegséget</strong> sugárzó falak</li>
+          <li>Tervezett <strong class="hl">belsőépítészeti terek</strong></li>
+          <li>Korszerű, stílusos, <strong class="hl">minőségi anyaghasználat</strong></li>
+          <li><strong class="hl">Hanggátló technológia</strong> alkalmazása a lakásokat elválasztó falak esetében</li>
+          <li><strong class="hl">Választható belső színkombinációk</strong> (burkolatok, ajtók)</li>
+        </ul>
+        <div class="info-stack">
+          {{ info_box("A lakások bútorzatlanul kerülnek értékesítésre.") }}
+          {{ info_box("A minőség mögött Ybl-díjas iskola áll") }}
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+{# ───────────── Video ───────────── #}
+<section class="section section--flush video-section" aria-label="Bemutató videó">
+  <div class="container">
+    <div class="video" data-video data-youtube="{{ site.video.youtube_id }}" data-reveal>
+      {{ img(site.video.poster, alt="", sizes="(min-width: 1200px) 1200px, 100vw", cls="video__poster") }}
+      <button type="button" class="video__play" data-video-play aria-label="Bemutató videó lejátszása">
+        <span class="video__play-icon">{{ icon("play") }}</span>
+        <span class="video__play-text">Bemutató videó</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+{# ───────────── Belső variációk ───────────── #}
+<section class="section variations" id="belso-variaciok" aria-labelledby="var-title">
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <h2 class="section-title section-title--center" id="var-title">Belső variációk</h2>
+    </header>
+    <div class="callout" data-reveal>
+      <h3 class="callout__title">{{ icon("star") }}Szabadon választható burkolat</h3>
+      <p>Az új ütemekben a fürdőszobák burkolatai <strong>9.000 Ft/m²</strong> árhatárig szabadon választhatók.</p>
+      <p>A megadott ár feletti burkolatválasztás esetén az árkülönbözet külön kerül elszámolásra.</p>
+    </div>
+
+    <div class="variation-group" data-reveal>
+      <div class="variation-group__head">
+        <h3 class="subsection-title">Laminált padló</h3>
+        <p>Magas minőségű, modern, vízálló, magas kopásállósággal rendelkező padló burkolatok.</p>
+      </div>
+      <ul class="swatch-grid">
+        {% for v in [("forest", "Forest", "Forest padlóburkolat hálószobában"), ("patina", "Patina", "Patina padlóburkolat konyhában"), ("caramel", "Caramel", "Caramel padlóburkolat nappaliban"), ("terra", "Terra", "Terra padlóburkolat nappaliban")] %}
+        <li class="swatch">
+          <button type="button" class="swatch__media" data-lightbox="Laminált padló" data-full="{{ img_url(v[0]) }}" data-caption="{{ v[1] }}">
+            {{ img(v[0], alt=v[2], sizes="(min-width: 1024px) 280px, 45vw") }}
+          </button>
+          <p class="swatch__name">{{ v[1] }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="variation-group" data-reveal>
+      <div class="variation-group__head">
+        <h3 class="subsection-title">Beltéri ajtók</h3>
+        <p>Magas minőségű, dekor fóliás, design kilincs kialakítású beltéri ajtók.</p>
+      </div>
+      <ul class="swatch-grid swatch-grid--doors">
+        {% for v in [("europai-tolgy", "Európai Tölgy", "Fehér beltéri ajtó"), ("natur-tolgy", "Natúr Tölgy", "Natúr Tölgy beltéri ajtó"), ("klasszikus-dio", "Klasszikus Dió", "Klasszikus Dió beltéri ajtó"), ("antracit-tolgy", "Antracit Tölgy", "Antracit Tölgy beltéri ajtó")] %}
+        <li class="swatch swatch--door">
+          <button type="button" class="swatch__media" data-lightbox="Beltéri ajtók" data-full="{{ img_url(v[0]) }}" data-caption="{{ v[1] }}">
+            {{ img(v[0], alt=v[2], sizes="(min-width: 1024px) 280px, 45vw") }}
+          </button>
+          <p class="swatch__name">{{ v[1] }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      {{ info_box("A beépítendő anyagok kínálatában, a minőség azonos változtatás jogát fenntartjuk.") }}
+    </div>
+  </div>
+</section>
+
+{# ───────────── Fürdőszoba stílusok ───────────── #}
+<section class="section section--tint bathrooms" aria-labelledby="bath-title">
+  <div class="container">
+    <article class="feature feature--reverse">
+      <div class="feature__media" data-reveal>
+        {{ carousel(bathroom_images, "Fürdőszobák képei") }}
+      </div>
+      <div class="feature__body" data-reveal>
+        <h2 class="section-title" id="bath-title">Fürdőszoba stílusok</h2>
+        <p class="lead">A lakás egyik legexkluzívabb helyisége, ahol a mindennapi komfort prémium köntöst kap.</p>
+        <ul class="checklist">
+          <li><strong class="hl">Prémium kategóriás</strong>, modern burkolatokkal kialakított fürdőszobák</li>
+          <li>Magas minőségű szaniterek és <strong class="hl">stílusos, funkcionális</strong> elrendezés</li>
+          <li><strong class="hl">Modern építészeti megoldások</strong> a kényelem és esztétikum jegyében</li>
+        </ul>
+      </div>
+    </article>
+    <ul class="design-grid" data-reveal>
+      {% for d in [("beige", "Beige design", "Beige fürdőszoba design"), ("color", "Color design", "Color fürdőszoba design"), ("marble", "Marble design", "Marble fürdőszoba design")] %}
+      <li class="design-card">
+        <button type="button" class="design-card__media" data-lightbox="Fürdőszoba design" data-full="{{ img_url(d[0]) }}" data-caption="{{ d[1] }}">
+          {{ img(d[0], alt=d[2], sizes="(min-width: 1024px) 33vw, 90vw") }}
+        </button>
+        <p class="design-card__name">{{ d[1] }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="callout" data-reveal>
+      <h3 class="callout__title">{{ icon("star") }}Szabadon választható burkolat</h3>
+      <p>Az új ütemekben a fürdőszobák burkolatai bruttó <strong>9.000 Ft/m²</strong> árhatárig szabadon választhatók.</p>
+      <p>A megadott ár feletti burkolatválasztás esetén az árkülönbözet külön kerül elszámolásra.</p>
+    </div>
+  </div>
+</section>
+
+{# ───────────── Lakásválasztó ───────────── #}
+<section class="section picker" id="lakasvalaszto" aria-labelledby="picker-title">
+  <div class="container">
+    <header class="section-head section-head--center" data-reveal>
+      <h2 class="section-title section-title--center" id="picker-title">Választható lakások</h2>
+      <p class="lead">A lakópark változatos méretű lakásai <strong>38 és 72 m² között alapterülettel készülnek – garzonoktól a három hálószobás, családi otthonokig.</strong> A földszinti lakások saját, elkerített kerttel, az emeletek hangulatos erkéllyel rendelkeznek.</p>
+      <p class="picker__hint">A lakások műszaki adatlapjának megtekintéséhez, először válasszon ki egy épületet:</p>
+    </header>
+    <div class="site-plan" data-reveal>
+      {{ img("building-picker", alt="Házválasztó rajz", sizes="(min-width: 1200px) 1200px, 100vw", cls="site-plan__img") }}
+      {% for b in picker %}
+      {% set pos = b.position %}
+      <button type="button" class="pin pin--{{ 'open' if b.available else ('soon' if not b.levels else 'sold') }}" data-building-open="{{ b.id }}"
+        style="{% for k, v in pos.desktop.items() %}--{{ k }}: {{ v }};{% endfor %}{% for k, v in pos.get("mobile", {}).items() %}--m-{{ k }}: {{ v }};{% endfor %}"
+        aria-label="{{ b.name }} - {{ b.status }}">
+        <span class="pin__letter">{{ b.id }}</span>
+        <span class="pin__status">{{ b.status }}</span>
+      </button>
+      {% endfor %}
+    </div>
+    <ul class="picker__legend" data-reveal>
+      {% for b in picker %}
+      <li><button type="button" class="building-chip" data-building-open="{{ b.id }}">
+        <span class="building-chip__letter">{{ b.id }}</span>
+        <span><strong>{{ b.name }}</strong><small>{{ b.status }}{% if b.levels %} · {{ b.available }} / {{ b.total }} elérhető{% endif %}</small></span>
+      </button></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% set open_buildings = picker|selectattr("available")|map(attribute="name")|list %}
+  {% for b in picker %}
+  <dialog class="building-dialog" data-building-dialog="{{ b.id }}" aria-labelledby="bd-{{ b.id }}-title">
+    <div class="building-dialog__inner">
+      <header class="building-dialog__head">
+        <div>
+          <h3 class="building-dialog__title" id="bd-{{ b.id }}-title">{{ b.name }}</h3>
+          <span class="badge badge--dark">{{ b.status }}</span>
+        </div>
+        <button type="button" class="icon-btn" data-dialog-close aria-label="Épület ablak bezárása" title="Épület ablak bezárása">{{ icon("close") }}</button>
+      </header>
+      <p class="building-dialog__info">
+        {% if not b.levels %}
+        Ez az épület még nem tartalmaz elérhető lakást.
+        {% elif b.available == 0 %}
+        A kiválasztott épületben minden lakás elkelt. <strong>Tekintse meg a {{ open_buildings|join(", ") }} elérhető lakásait.</strong>
+        {% else %}
+        A(z) {{ b.name }}ben <strong>{{ b.available }} választható lakás maradt.</strong><br>A lakópark fejlődésével együtt az értéke is nő – érdemes időben dönteni!
+        {% endif %}
+      </p>
+      {% if b.levels %}
+      <ul class="plan-legend" aria-label="Jelmagyarázat">
+        <li><span class="dot dot--ok"></span>Elérhető</li>
+        <li><span class="dot dot--taken"></span>Foglalt</li>
+      </ul>
+      <div class="level-grid">
+        {% for lv in b.levels %}
+        <section class="level-card" aria-label="{{ lv.name }}">
+          <h4 class="level-card__name">{{ lv.name }}</h4>
+          <div class="level-card__plan">
+            <img src="{{ root }}{{ lv.src }}" alt="{{ lv.alt }}" loading="lazy" decoding="async">
+            <svg viewBox="{{ lv.viewBox }}" class="level-card__overlay" role="group" aria-label="{{ lv.name }} lakásai">
+              {% for x in lv.apartments %}
+              {% set t = x.name|replace("Lakás ", "") ~ " lakás (" ~ ("elérhető" if x.available else "foglalt") ~ ")" %}
+              <a href="{{ root }}elado-lakasok/{{ x.id }}/" aria-label="{{ t }}" data-tip="{{ t }}" data-tip-sub="{{ x.area }} · {{ x.price }}">
+                <path d="{{ x.d }}" class="zone {{ 'zone--ok' if x.available else 'zone--taken' }}"/>
+              </a>
+              {% endfor %}
+            </svg>
+          </div>
+          <ul class="level-card__list">
+            {% for x in lv.apartments|sort(attribute="id") %}
+            <li><a href="{{ root }}elado-lakasok/{{ x.id }}/" class="{{ 'is-ok' if x.available else 'is-taken' }}"><span class="dot {{ 'dot--ok' if x.available else 'dot--taken' }}"></span>{{ x.name|replace("Lakás ", "") }}<small>{{ x.area }}</small></a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </dialog>
+  {% endfor %}
+  <div class="plan-tip" data-plan-tip hidden></div>
+</section>
+
+{# ───────────── Bővülő lakáskínálat ───────────── #}
+<section class="section section--tint expansion" aria-labelledby="exp-title">
+  <div class="container split split--center">
+    <div class="split__text" data-reveal>
+      <h2 class="section-title" id="exp-title">Bővülő lakáskínálat</h2>
+      <p class="lead lead--strong">Az új ütem építése már zajlik!</p>
+      <p class="date-chip">{{ icon("calendar") }}<span><strong>Várható átadási időpont:</strong><br>2027 első negyedéve</span></p>
+    </div>
+    <figure class="split__media rounded-media" data-reveal>
+      {{ img("lakopark-fuvesitett", alt="Füvesített lakópark madárnézetből, és az első felépített ház", sizes="(min-width: 1024px) 50vw, 100vw") }}
+    </figure>
+  </div>
+</section>
+
+{# ───────────── Tárolók, parkolók ───────────── #}
+<section class="section extras" aria-labelledby="extras-title">
+  <div class="container split">
+    <div class="split__text" data-reveal>
+      <h2 class="section-title" id="extras-title">Tárolók, parkolók</h2>
+      {% include "partials/extras.html" %}
+      <div class="info-stack">
+        {{ info_box("CSOK finanszírozási segítség. 5%-os visszaigényelhető áfa.") }}
+        {{ info_box("Állami lakásvásárlási kedvezmények. Segítségnyújtás a finanszírozásban.") }}
+      </div>
+    </div>
+    <div class="mosaic" data-reveal>
+      {% for p in [("lakopark-parkolok-3", "Lakópark parkolók (felülnézetből)"), ("lakopark-parkolok-4", "Lakópark parkolók (madárnézetből)"), ("lakopark-parkolok-2", "Lakópark parkolók (oldalnézetből)"), ("lakopark-parkolok-1", "Lakópark parkolók")] %}
+      <button type="button" class="mosaic__item" data-lightbox="Parkolók" data-full="{{ img_url(p[0]) }}" data-caption="{{ p[1] }}">
+        {{ img(p[0], alt=p[1], sizes="(min-width: 1024px) 25vw, 50vw") }}
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "partials/contact.html" %}
+{% endblock %}

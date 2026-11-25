@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import icon, info_box, apartment_card with context %}
+{% set pc = site.price_calculator %}
+{% block title %}Csillagfény Lakópark - {{ a.name }}{% endblock %}
+{% block description %}{{ a.meta_description }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ a.name }}{% endblock %}
+{% block og_image %}{{ img_path(a.card_image.img) }}{% endblock %}
+{% block main %}
+<section class="page-hero page-hero--apartment">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Morzsamenü">
+      <ol>
+        <li><a href="{{ root }}">Csillagfény Lakópark</a></li>
+        <li><a href="{{ root }}elado-lakasok/">Eladó lakások Kaposváron</a></li>
+        <li><span aria-current="page">{{ a.name }}</span></li>
+      </ol>
+    </nav>
+    <div class="apt-head">
+      <div>
+        <p class="eyebrow">Csillagfény Lakópark</p>
+        <h1 class="page-title">{{ a.name }}{% if a.seo_heading %}<span class="page-title__sub">{{ a.seo_heading }}</span>{% endif %}</h1>
+      </div>
+      <span class="badge badge--lg {{ 'badge--ok' if a.available else 'badge--taken' }}">{{ "Elérhető" if a.available else "Foglalt" }}</span>
+    </div>
+    <ul class="key-facts">
+      <li>{{ icon("building") }}<span><small>Épület</small>{{ a.building }}. épület</span></li>
+      <li>{{ icon("layers") }}<span><small>Szint</small>{{ a.level_label }}</span></li>
+      <li>{{ icon("area") }}<span><small>Össz terület</small>{{ a.total_area_label }}</span></li>
+      <li>{{ icon("tag") }}<span><small>Normál ár</small>{{ a.price|huf }}</span></li>
+    </ul>
+  </div>
+</section>
+
+{% if a.photos %}
+<section class="apt-gallery" aria-label="{{ a.name }} fotói">
+  <div class="apt-gallery__track" data-carousel>
+    <div class="apt-gallery__scroller" data-carousel-track tabindex="0">
+      {% for p in a.photos %}
+      <button type="button" class="apt-gallery__item" data-lightbox="{{ a.name }}" data-full="{{ img_url(p.img) }}" data-caption="{{ p.alt }}">
+        {{ img(p.img, alt=p.alt, sizes="(min-width: 1024px) 30vw, 75vw", loading=("eager" if loop.index <= 3 else "lazy")) }}
+      </button>
+      {% endfor %}
+    </div>
+    <div class="carousel__controls container">
+      <button type="button" class="icon-btn" data-carousel-prev aria-label="Előző kép">{{ icon("arrow-left") }}</button>
+      <span class="carousel__count" data-carousel-count aria-live="polite">1 / {{ a.photos|length }}</span>
+      <button type="button" class="icon-btn" data-carousel-next aria-label="Következő kép">{{ icon("arrow-right") }}</button>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section--tight apt-detail">
+  <div class="container apt-detail__grid">
+    <div class="apt-detail__plan">
+      <figure class="plan-card card">
+        <button type="button" class="plan-card__zoom" data-lightbox="{{ a.name }} alaprajz" data-full="{{ img_url(a.floorplan.img) }}" data-caption="{{ a.floorplan.alt }}">
+          {{ img(a.floorplan.img, alt=a.floorplan.alt, sizes="(min-width: 1024px) 40vw, 92vw") }}
+          <span class="plan-card__hint">{{ icon("expand") }}Nagyítás</span>
+        </button>
+      </figure>
+    </div>
+
+    <div class="apt-detail__info">
+      {% if a.description_html %}
+      <div class="prose">{{ a.description_html|safe }}</div>
+      {% endif %}
+
+      <div class="card rooms">
+        <table class="rooms__table">
+          <thead><tr><th scope="col">Szint</th><th scope="col">Helyiség</th><th scope="col">Mért terület</th></tr></thead>
+          <tbody>
+            {% for r in a.rooms %}
+            <tr><td>{{ r.level }}</td><td>{{ r.room }}</td><td>{{ r.area }}</td></tr>
+            {% endfor %}
+          </tbody>
+          <tfoot>
+            <tr><th scope="row" colspan="2">Össz terület:</th><td>{{ a.total_area_label }}</td></tr>
+            {% if a.gross_area_label %}<tr class="rooms__gross"><td colspan="2"></td><td>{{ a.gross_area_label }}</td></tr>{% endif %}
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="card calc" data-calc data-price="{{ a.price }}" data-area="{{ a.total_area }}" data-discount="{{ pc.prepay_discount }}" data-surcharge="{{ pc.loan_surcharge }}">
+        <h2 class="calc__title">{{ pc.heading }}</h2>
+        <div class="tabs" role="tablist" aria-label="{{ pc.heading }}">
+          <button type="button" role="tab" id="tab-prepay" aria-controls="panel-prepay" aria-selected="false" tabindex="-1">Előrefizetés</button>
+          <button type="button" role="tab" id="tab-own" aria-controls="panel-own" aria-selected="true">Önerőből</button>
+          <button type="button" role="tab" id="tab-loan" aria-controls="panel-loan" aria-selected="false" tabindex="-1">Hitelre</button>
+        </div>
+        <div class="calc__panel" role="tabpanel" id="panel-prepay" aria-labelledby="tab-prepay" hidden>
+          <dl class="calc__rows">
+            <div class="calc__row calc__row--main"><dt>Kedvezményes ár</dt><dd class="calc__highlight">{{ a.discounted_price|huf }}</dd></div>
+            <div class="calc__row calc__row--small"><dt>Négyzetméter ára</dt><dd>{{ a.discounted_sqm_price|huf }}</dd></div>
+          </dl>
+          {{ info_box("Amennyiben az <strong>" ~ pc.prepay_deadline ~ "</strong> kifizeti a teljes vételárat, 4% kedvezmény jár a normál árhoz képest. Ezáltal " ~ (a.discount_saving|huf) ~ "-ot spórol a normál árral szemben.") }}
+        </div>
+        <div class="calc__panel" role="tabpanel" id="panel-own" aria-labelledby="tab-own">
+          <dl class="calc__rows">
+            <div class="calc__row calc__row--main"><dt>Normál ár</dt><dd class="calc__highlight">{{ a.price|huf }}</dd></div>
+            <div class="calc__row calc__row--small"><dt>Négyzetméter ára</dt><dd>{{ a.sqm_price|huf }}</dd></div>
+          </dl>
+          {{ info_box("Ütemenkénti fizetési ár.") }}
+        </div>
+        <div class="calc__panel" role="tabpanel" id="panel-loan" aria-labelledby="tab-loan" hidden>
+          <label class="calc__input">
+            <span>Önerő összeg:</span>
+            <span class="calc__input-field"><input type="text" inputmode="numeric" autocomplete="off" placeholder="0" data-calc-own aria-describedby="loan-note"><span>Ft</span></span>
+          </label>
+          <dl class="calc__rows">
+            <div class="calc__row"><dt>Eredeti ár</dt><dd>{{ a.price|huf }}</dd></div>
+            <div class="calc__row"><dt>Önerő</dt><dd data-calc-out="own">{{ 0|huf }}</dd></div>
+            <div class="calc__row"><dt>Hitel (4% felárral)</dt><dd data-calc-out="loan">{{ (a.price * (1 + pc.loan_surcharge))|js_round|huf }}</dd></div>
+            <div class="calc__row calc__row--main"><dt>Spórolt összeg</dt><dd class="calc__highlight" data-calc-out="saved">{{ 0|huf }}</dd></div>
+            <div class="calc__row calc__row--small"><dt>Négyzetméter ára</dt><dd data-calc-out="sqm">{{ (a.price * (1 + pc.loan_surcharge) / a.total_area)|js_round|huf }}</dd></div>
+          </dl>
+          <div id="loan-note">{{ info_box("A hitelre fennmaradó összeg 4%-kal magasabb.") }}</div>
+        </div>
+        {{ info_box(pc.vat_note, "info-box--muted") }}
+      </div>
+
+      <div class="card">
+        {% include "partials/extras.html" %}
+      </div>
+
+      <div class="availability {{ 'availability--ok' if a.available else 'availability--taken' }}">
+        <p class="availability__status"><span class="dot {{ 'dot--ok' if a.available else 'dot--taken' }}"></span>{{ "Ez a lakás elérhető" if a.available else "Ez a lakás foglalt" }}</p>
+        {% if a.available %}
+        <a class="btn btn--primary" href="#kapcsolat">→ ugrás a kapcsolatfelvételhez</a>
+        {% else %}
+        <a class="btn btn--outline" href="{{ root }}#lakasvalaszto">→ ugrás a lakásválasztóhoz</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if more %}
+<section class="section more" aria-labelledby="more-title">
+  <div class="container">
+    <header class="section-head section-head--row">
+      <div>
+        <h2 class="eyebrow eyebrow--block">Azonnal vásárolható új lakások Kaposváron, akár CSOK támogatással</h2>
+        <p class="section-title" id="more-title">További lakások</p>
+      </div>
+      <a class="btn btn--outline" href="{{ root }}elado-lakasok/">Lakáslista megtekintése{{ icon("arrow-right") }}</a>
+    </header>
+    <div class="card-rail" data-carousel>
+      <ul class="card-rail__track" data-carousel-track tabindex="0">
+        {% for v in more %}
+        <li>{{ apartment_card(v) }}</li>
+        {% endfor %}
+      </ul>
+      <div class="carousel__controls">
+        <button type="button" class="icon-btn" data-carousel-prev aria-label="Előző lakások">{{ icon("arrow-left") }}</button>
+        <span class="carousel__count" data-carousel-count aria-live="polite"></span>
+        <button type="button" class="icon-btn" data-carousel-next aria-label="Következő lakások">{{ icon("arrow-right") }}</button>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include "partials/park_teaser.html" %}
+{% include "partials/contact.html" %}
+{% endblock %}

@@ -1,0 +1,10 @@
+{% from "partials/macros.html" import icon with context %}
+<ul class="extras-list">
+  {% for e in site.extras %}
+  <li class="extra">
+    <span class="extra__icon">{{ icon(e.icon) }}</span>
+    <p class="extra__desc">{{ e.desc }}</p>
+    <p class="extra__price">{{ e.price }}</p>
+  </li>
+  {% endfor %}
+</ul>

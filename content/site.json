@@ -1,0 +1,52 @@
+{
+ "name": "Csillagfény Lakópark",
+ "site_url": "https://guyko81.github.io/csillagfeny/",
+ "indexable": false,
+ "lang": "hu",
+ "logo": {"img": "logo-with-location", "alt": "2P Gránit Logo"},
+ "nav": [
+  {"label": "Bemutató", "href": ""},
+  {"label": "Lakásválasztó", "href": "#lakasvalaszto"},
+  {"label": "Lakáslista", "href": "elado-lakasok/"},
+  {"label": "Kapcsolat", "href": "#kapcsolat"}
+ ],
+ "contact": {
+  "heading": "Kapcsolatfelvétel",
+  "intro": "Örömmel tölt el bennünket hogy bemutathatjuk épülő lakóparkunkat! Kollégánk szívesen válaszol bármely felmerülő kérdésre. Keressék bizalommal az alábbi elérhetőségeken, vagy a kapcsolat űrlap kitöltésével.",
+  "person": {"name": "Apró Renáta", "role": "Értékesítő kolléga", "img": "staff-member-avatar__apro-renata"},
+  "email": "ugyvitel.2pgranit@gmail.com",
+  "phone_display": "+3620/538-8319",
+  "phone_href": "tel:+36205388319",
+  "facebook": "https://www.facebook.com/csillagfenylakopark",
+  "form": {
+   "fields": [
+    {"name": "name", "label": "Teljes név", "type": "text", "autocomplete": "name", "error": "Kérjük adja meg teljes nevét."},
+    {"name": "email", "label": "Email", "type": "email", "autocomplete": "email", "error": "Kérjük adja meg email címét érvényes formátumban."},
+    {"name": "phone", "label": "Telefonszám", "type": "tel", "autocomplete": "tel", "error": "Kérjük adja meg telefonszámát."},
+    {"name": "message", "label": "Üzenet", "type": "textarea", "error": "Kérjük írjon üzenet tartalmat."}
+   ],
+   "consent_html": "Egyetértek azzal, hogy az általam megadott személyes adatok mentésre kerüljenek a csillagfenylakopark.hu adatbázisába, annak érdekében hogy a webhely tulajdonosa válaszolni tudjon szolgáltatása iránti érdeklődésemre.<br>Személyes adataid kezeléséről bővebben itt tudsz olvasni: <a href=\"{root}adatkezelesi-tajekoztato/\">Adatkezelési tájékoztató</a>.",
+   "consent_error": "Kérjük adja meg hozzájárulását személyes adatai mentéséhez (teljes név, email cím és telefonszám).",
+   "submit": "Küldés"
+  }
+ },
+ "extras": [
+  {"desc": "Lakásokhoz opcionálisan vásárolható 3㎡-es tároló", "price": "1 350 000 Ft-os áron", "icon": "box"},
+  {"desc": "Lakásokhoz opcionálisan vásárolható saját parkolóhely", "price": "1 530 000 Ft-os áron", "icon": "car"},
+  {"desc": "Lakásokhoz opcionálisan elektromos autó töltőállomás kiépítése igényelhető", "price": "Egyedi ajánlat alapján", "icon": "plug"}
+ ],
+ "marquee": ["Zöld környezet", "Kerítéssel körbevett", "Saját parkoló", "Hangulatos erkély", "Hanggátló technológia", "Modern", "Energiahatékony", "Okos otthon", "Elegáns", "Letisztult", "Nyugalmas"],
+ "price_calculator": {
+  "heading": "Fizetési lehetőségek",
+  "prepay_discount": 0.04,
+  "loan_surcharge": 0.04,
+  "prepay_deadline": "alapozás befejezéséig (2026.12.31.)",
+  "vat_note": "A feltüntetett bruttó árak tartalmazzák az áfát."
+ },
+ "map": {"lat": 46.34619133171045, "lng": 17.76344285807967, "zoom": 15},
+ "video": {"youtube_id": "7fyP8uNR_lc", "poster": "bemutato-video-boritokep"},
+ "footer": {
+  "copyright": "Copyright ©2026 - csillagfenylakopark.hu. Minden jog fenntartva.",
+  "credit_html": "A weboldal a <a href=\"https://www.freepik.com/\" rel=\"noopener\" target=\"_blank\">Freepik.com</a> által biztosított, ingyenes média elemeket tartalmaz."
+ }
+}

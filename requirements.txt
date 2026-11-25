@@ -1,0 +1,2 @@
+# needed to build the site (tools/build.py)
+Jinja2==3.1.6

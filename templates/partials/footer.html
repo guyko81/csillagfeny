@@ -1,0 +1,28 @@
+{% from "partials/macros.html" import icon with context %}
+{% set home = root or "./" %}
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <img src="{{ img_url(site.logo.img) }}" alt="{{ site.logo.alt }}" width="160" height="46" loading="lazy">
+      <p class="site-footer__name">{{ site.name }}</p>
+    </div>
+    <nav class="site-footer__nav" aria-label="Lábléc navigáció">
+      <ul>
+        <li><a href="{{ home }}">Bemutató</a></li>
+        <li><a href="{{ home }}#lakasvalaszto">Lakásválasztó</a></li>
+        <li><a href="{{ root }}elado-lakasok/">Lakáslista</a></li>
+        <li><a href="{{ ('' if has_contact else home) }}#kapcsolat">Kapcsolat</a></li>
+      </ul>
+    </nav>
+    <ul class="site-footer__contact">
+      <li><a href="{{ site.contact.phone_href }}">{{ icon("phone") }}{{ site.contact.phone_display }}</a></li>
+      <li><a href="mailto:{{ site.contact.email }}">{{ icon("mail") }}{{ site.contact.email }}</a></li>
+      <li><a href="{{ site.contact.facebook }}" rel="noopener" target="_blank">{{ icon("facebook") }}Facebook</a></li>
+    </ul>
+  </div>
+  <div class="container site-footer__legal">
+    <p>{{ site.footer.copyright }}</p>
+    <p>{{ site.footer.credit_html|safe }}</p>
+    <a href="{{ root }}adatkezelesi-tajekoztato/">Adatkezelési tájékoztató</a>
+  </div>
+</footer>

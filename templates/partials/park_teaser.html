@@ -1,0 +1,21 @@
+{% from "partials/macros.html" import icon with context %}
+<section class="section section--tint park-teaser" aria-labelledby="park-teaser-title">
+  <div class="container park-teaser__grid">
+    <div class="park-teaser__text" data-reveal>
+      <h2 class="section-title" id="park-teaser-title">Lakópark és lakások</h2>
+      <p class="lead">Ismerje meg a Csillagfény Lakópark egyedi adottságait, valamint lakásaink legfontosabb tulajdonságait.</p>
+      <a class="btn btn--outline" href="{{ root or './' }}">Bemutató megtekintése{{ icon("arrow-right") }}</a>
+    </div>
+    <figure class="park-teaser__media" data-reveal>
+      {{ img("csillagfeny-lakopark-bemutato", alt='A Csillagfény Lakópark "A" épülete és környezete', sizes="(min-width: 1024px) 50vw, 100vw") }}
+    </figure>
+  </div>
+  <div class="marquee" aria-label="A lakópark jellemzői">
+    <ul class="marquee__track">
+      {% for item in site.marquee %}<li>{{ icon("star") }}{{ item }}</li>{% endfor %}
+    </ul>
+    <ul class="marquee__track" aria-hidden="true">
+      {% for item in site.marquee %}<li>{{ icon("star") }}{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>

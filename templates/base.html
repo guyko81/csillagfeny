@@ -1,0 +1,42 @@
+{% from "partials/macros.html" import icon with context %}
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  {% block head_first %}{% endblock %}
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{% block title %}{{ site.name }}{% endblock %}</title>
+  {% set description %}{% block description %}{% endblock %}{% endset %}
+  {% if description|trim %}<meta name="description" content="{{ description|trim }}">{% endif %}
+  {% if not site.indexable %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <link rel="canonical" href="{{ canonical }}">
+  <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{% block og_title %}{{ site.name }}{% endblock %}">
+  {% if description|trim %}<meta property="og:description" content="{{ description|trim }}">{% endif %}
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ site.site_url }}{% block og_image %}{{ img_path('csillagfeny-lakopark-kaposvar') }}{% endblock %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0c3a46">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="{{ root }}img/favicon.png">
+  <link rel="apple-touch-icon" href="{{ root }}img/favicon.png">
+  <link rel="preload" href="{{ root }}fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ root }}fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <script type="module" src="{{ asset('js/main.js') }}"></script>
+  {% block head %}{% endblock %}
+</head>
+<body class="page-{{ page }}">
+  <a class="skip-link" href="#main">Ugrás a tartalomra</a>
+  {% include "partials/icons.svg" %}
+  {% include "partials/header.html" %}
+  <main id="main">
+    {% block main %}{% endblock %}
+  </main>
+  {% include "partials/footer.html" %}
+  {% include "partials/lightbox.html" %}
+</body>
+</html>
